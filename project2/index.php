@@ -5,6 +5,7 @@
     foreach($pro1 as $k=>$v){
         sort($v);
         $pro1[$k]=$v;
+    
     }
     //连接数据库
     $dsn='mysql:host=127.0.0.1;port=3306;dbname=data;charset=utf8';
