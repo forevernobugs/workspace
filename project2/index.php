@@ -8,7 +8,7 @@
     }
     //连接数据库
     $dsn='mysql:host=127.0.0.1;port=3306;dbname=data;charset=utf8';
-    $pdo=new PDO($dsn,'root','aa');
+    $pdo=new PDO($dsn,'root','root');
     $inputres=false;//保存数据结果
     $insertOk=false;//保存数据结果
     $data = [];//要展示的数据
@@ -16,7 +16,7 @@
       echo json_encode($pro1[$_POST['key']]);die;
     }
     //处理请求
-    $flag=$_POST['flag']??'';//判定提交的表格
+    $flag=isset($_POST['flag'])?$_POST['flag']:'';//判定提交的表格
     switch ($flag) {
       case 'input':
         $name=strtolower($_POST['name']);
@@ -33,9 +33,9 @@
         $data=$pdo->query("select * from s_data order by id desc")->fetchAll();
         break;
       case 'getdata':
-        $name=strtolower($_POST['name'])??'';
-        $product=$_POST['pro']??'';
-        $classname=$_POST['classname']??'';
+        $name=isset($_POST['name'])?$_POST['name']:'';
+        $product=isset($_POST['pro'])?$_POST['pro']:'';
+        $classname=isset($_POST['classname'])?$_POST['classname']:'';
         
         $sql="select * from s_data where 1 ";
         if($name){
