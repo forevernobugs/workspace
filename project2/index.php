@@ -8,7 +8,7 @@
     }
     //连接数据库
     $dsn='mysql:host=127.0.0.1;port=3306;dbname=data;charset=utf8';
-    $pdo=new PDO($dsn,'root','root');
+    $pdo=new PDO($dsn,'root','aa');
     $inputres=false;//保存数据结果
     $insertOk=false;//保存数据结果
     $data = [];//要展示的数据
@@ -78,18 +78,9 @@
                     <td width="100" class="text-r"></td>
                     <td id="ss">
                       <input type="button" name="pro" id="A2" value="键A2">
-                        <select name='pro' id="A3" style="display: none" onfocus="selectFocus(this)">
-                          <option value ="all" >All</option>
-                          <?php
-                              foreach ($pro as $key => $value) {
-                                  echo "<option value ='".$key."' onclick='selectClick(this)'>".$value."</option>"; 
-                              }
-                          ?>
-                        </select>
-                        <select name='classname' id="A4" style="display: none" onfocus="selectFocus(this)">
-                          <option value ="all" >All</option>
-                        </select>
-                        <input type="reset" name="" id="A5" value="键A5">
+                        <div id="box">
+
+                        </div>
                     </td>
                 </tr>
           </table>
@@ -138,6 +129,23 @@
   </table>
   </div>
 </div>
+<div id="box1">
+  <div id="child">
+    <select name='pro' id="A3" style="display: none" onfocus="selectFocus(this)">
+      <option value ="all" >All</option>
+      <?php
+          foreach ($pro as $key => $value) {
+              echo "<option value ='".$key."' onclick='selectClick(this)'>".$value."</option>"; 
+          }
+      ?>
+    </select>
+    <select name='classname' id="A4" style="display: none" onfocus="selectFocus(this)">
+      <option value ="all" >All</option>
+    </select>
+    <input type="reset" name="" id="A5" value="键A5">
+  </div>
+</div>
+
 <input type="hidden" id='inputres' value="<?php echo $inputres ?>">
 <input type="hidden" id='insertOk' value="<?php echo $insertOk ?>">
 <script>
@@ -151,11 +159,13 @@
     }
 </script>
 <script type="text/javascript">
-    var msg=document.getElementById('msg').value;
-    var A2=document.getElementById('A2');
-    var A3=document.getElementById('A3');
-    var A4=document.getElementById("A4");
-    var A5=document.getElementById('A5');
+    child = 'child'
+    var msg=document.getElementById('msg').value
+    var A2=document.getElementById('A2')
+    var A3=document.getElementById(child).children[0]
+    var A4=document.getElementById(child).children[1]
+    var A5=document.getElementById(child).children[2]
+    var childiv = document.getElementById(child)
     // var A4=document.createElement('select');
     A3.onchange = function(){
         let key = A3.selectedIndex;
@@ -188,6 +198,9 @@
     };
     A2.onclick = function(){
       A3.style.display="inline";
+      child = child + '1';
+      childiv.id = child
+      document.getElementById('box').innerHTML += document.getElementById('box1').innerHTML
     } 
     A5.onclick = function(){
       A3.style.display="none";
@@ -196,6 +209,7 @@
     A3.onclick = function(){
 
       A4.style.display='inline'
+
     }
     //点击添加size属性
     function selectFocus(that){
