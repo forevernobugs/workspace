@@ -1,0 +1,277 @@
+<!--
+<?php
+print <<<EOT
+-->
+<SCRIPT LANGUAGE="JavaScript" src="http://localhost/v71/images/default/inc.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://localhost/v71/images/default/default.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://localhost/v71/images/default/swfobject.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://localhost/v71/images/default/jquery-1.2.6.min.js"></SCRIPT>
+
+
+
+
+
+<div class="dnpsh_max">
+<div class="jianj"></div>
+	
+	<!--中间开始-->
+		<div class="psh_xq">
+			<!--<div class="psh_xq_dswz">
+			<span>$rs[title]</span><br>
+		{$rsdb[content]}
+			</div>-->
+		<div class="psh_xq_max">
+			<div class="psh_pic"><img src="{$rsdb[picurl]}"></div>
+			<div class="psh_xq_yb">
+			  <div class="psh_xq_yb_1">
+				<ul>
+					<li>活动时间&nbsp;： {$rsdb[my_256]}</li>
+					<li>行程天数&nbsp;： {$rsdb[my_689]}天</li>
+					<li>集合地&nbsp;: {$rsdb[my_311]}</li>
+					<li>目的地&nbsp;: {$rsdb[select_my_723]}</li>
+					<li>交通工具&nbsp;: {$rsdb[my_545]}</li>
+					<li>浏览人数&nbsp;:53078</li>
+					
+				 </ul>
+			    </div>
+				<div class="psh_jg">
+					&nbsp;￥<span>&nbsp; {$rsdb[my_626]} &nbsp;&nbsp;</span>(&nbsp;成&nbsp;人&nbsp;)
+				</div>
+				<div class="psh_xzrs">限制人数&nbsp： {$rsdb[my_757]} 人</div>
+				
+				<div class="psh_fxd">
+					<ul>
+						<li>分享到&nbsp</li>
+						<li><a href="#"><img src="images/pic_f1.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f2.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f3.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f4.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f5.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f6.gif"></a></li>
+					</ul>
+				</div>
+		     </div>
+			
+		</div>
+		<div class="psh_hd">
+				<ul>
+					<li><a href="{$webdb[www_url]}/bencandy.php?fid=$fid&id=$aid#chap1">活动批次</a></li>
+					<li><a href="{$webdb[www_url]}/bencandy.php?fid=$fid&id=$aid#chap2">活动介绍</a></li>
+					<li><a href="{$webdb[www_url]}/bencandy.php?fid=$fid&id=$aid#chap3">其他信息</a></li>
+					<li><a href="{$webdb[www_url]}/bencandy.php?fid=$fid&id=$aid#chap4">会员评论</a></li>
+				</ul>
+		</div>
+		<div class="psh_hd_2" id="chap1">活动批次:
+		{$rsdb[huodongpici]}
+		</div>
+	 <div class="psh_hd_1">
+		
+EOT;
+include("page33.php");
+
+			// 网站表区分符 
+$link = mysql_connect('localhost','root','R1F6pUR38g');
+if(!$link){
+echo '数据库连接失败';
+	die();
+}
+
+$s = mysql_select_db('yelv'); 
+if(!$s){
+	echo "数据库无法连接";
+	die();
+}
+mysql_set_charset('gbk');
+print <<<EOT
+		
+		
+	 </div>
+	<!-- <div class="psh_hd_3"><a href="#">点击查看更多</a></div>-->
+	<div class="psh_hd_2" id="chap2">活动介绍
+	
+	</div>
+	<div class="psh_hd_js">
+		{$rsdb[content]}  <img src="images/pic_hdjs1.png">
+	</div>
+	<div class="psh_hd_2" id="chap3">其他信息:{$rsdb[qitaxinxi]}
+	
+	</div>
+	
+	<div class="psh_hd_qt">
+		<ul>
+			<li><span>气候：</span>9-10月坝上草原气温在0-20度之间，秋高气爽，阳光灿烂，早晚温差比较大，防风要特别注意；</li>
+             <li><span>穿衣：</span>白天一般阳光灿烂，穿三件套即可；摄影团早起晚归，早晚温差大，最好带上羽绒衣，帽子、太阳镜。</li>
+             <li><span>饮食：</span>坝上食宿条件愈加丰富，菜肴各地游侠都能适应，其中土豆特别好吃，游侠客饭店味道最好；</li>
+             <li><span>安全：</span>牧民很友好，但随着旅游的发展，在草原自驾被乱罚款收费时有，请跟着正规组织走，可确保安全；</li>
+             <li><span>上网：</span>北京酒店能上网，但到了草原度假村，大厅和走廊都有wifi，房间只有部分有信号，但4G都能连上。</li>
+		</ul>
+	
+	</div>
+	<div class="psh_hyp">
+		<div class="psh_hyp_1" id="chap4">会员评论
+		
+		
+
+
+		</div>
+
+	
+		
+		<div class="psh_hyp_2" style="height:1000px;" >
+			<div class="psh_hyp_3"><img src="images/pic_pingl.png"></div>
+			<div class="psh_hyp_4"><span>大洋葱：sssssssss</span><br>
+				</div>
+			
+<!--include
+EOT;
+
+$dbhost = 'localhost';		// 数据库服务器(一般不必改)
+$dbuser = 'root';			// 数据库用户名
+$dbpw = 'R1F6pUR38g';					// 数据库密码
+$dbname = 'yelv';				// 数据库名
+$pre='qibosoft_';				// 网站表区分符 
+$pre='qibosoft_';				// 网站表区分符 
+$link = mysql_connect('localhost','root','R1F6pUR38g');
+if(!$link){
+echo '数据库连接失败';
+}
+mysql_select_db('yelv'); 
+
+$list =  "select * from qibosoft_article_content_103 as a inner join qibosoft_form_content_7 as f on f.product=a.aid limit 0,4;"; 
+$rt = mysql_query($list);
+$total = mysql_num_rows($rt);
+//echo $total;
+//评论调用代码
+if($webdb[showComment] && $fidDB[allowcomment] && !$rsdb[forbidcomment]){
+	//if( $webdb[allowGuestComment] || (!$webdb[allowGuestComment]&&$lfjid) || (!$webdb[allowGuestComment]&&$id_array) ){
+		@include(html("bencandy_tpl/comment"));
+	//}
+}print <<<EOT
+include-->	
+		</div>
+		
+		
+		<div class="psh_hd_3"><a href="#">点击查看更多</a></div>
+	</div>
+	
+	<!--中间结束-->
+	</div>
+<style>
+.bmqk_nr_li  li{float:left;margin-left:5px;}
+.jj_53s		{width:60%;}
+</style>
+	<div class="youbian">
+		<!--右边1-->
+		<div class="yb_1" style="height:185px;">
+			<div class="yb_top"> <span>报名情况</span></div>
+			
+			
+
+
+EOT;
+include("pagejin.php");
+
+			// 网站表区分符 
+$link = mysql_connect('localhost','root','R1F6pUR38g');
+if(!$link){
+echo '数据库连接失败';
+	die();
+}
+
+$s = mysql_select_db('yelv'); 
+if(!$s){
+	echo "数据库无法连接";
+	die();
+}
+mysql_set_charset('gbk');
+print <<<EOT			
+			
+			
+			
+			
+		</div>
+		<div style="width:100%;height:20px;"></div>
+		<div class="yb_1">
+			<div class="yb_top"> <span>带你拍上海报名排行榜</span></div>
+			<div class="yb_lb">
+				<ul class="labe_1">
+			
+                                  <script src="do/js.php?id=316"></script>
+				</ul>
+			
+			</div>
+		</div>
+		<!--右边1结束右边2-->
+		<div style="width:100%;height:20px;"></div>
+		<div class="yb_1">
+			<div class="yb_top"> <span>摄影线路推荐排行榜</span></div>
+			<div class="yb_lb">
+				<ul class="labe_1">
+				
+                                  <script src="do/js.php?id=314"></script>
+				</ul>
+			
+			</div>
+		</div>
+	
+		<div style="width:100%;height:20px;"></div>
+		<div class="yb_1">
+			<div class="yb_top"> <span>活动公告</span></div>
+			<div class="yb_lb">
+				<ul class="labe_1">
+				
+				
+                                       <script src="do/js.php?id=745"></script>
+				</ul>
+			
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+EOT;
+?>
+-->

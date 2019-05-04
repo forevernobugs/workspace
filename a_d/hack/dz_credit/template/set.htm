@@ -1,0 +1,77 @@
+<!--
+<?php
+$close_dz_credit[intval($webdb[close_dz_credit])]=' checked ';
+print <<<EOT
+--> 
+<table width="100%" border="0" cellspacing="1" cellpadding="3" class="tablewidth"  style='TABLE-LAYOUT: fixed;WORD-WRAP: break-word'>
+  <form name="form_work" method="post" action="index.php?lfj=$lfj&action=set">
+    <tr class="head"> 
+      <td colspan="2" align="center">DISCUZ论坛积分兑换配置</td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td align="left" width="357" style="width:300px;">是否开放兑换:</td>
+      <td align="left" width="1047"> <a href="index.php?lfj=$lfj&action=delete_admin_logs&iddb[{$rs[id]}]=1"></a> 
+        <input type="radio" name="webdbs[close_dz_credit]" value="0"  $close_dz_credit[0]>
+        开放 
+        <input type="radio" name="webdbs[close_dz_credit]" value="1" $close_dz_credit[1]>
+        关闭</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" > 
+      <td align="left" width="357">1个本系统{$webdb[MoneyName]}兑换论坛威望:</td>
+      <td align="left" width="1047"> 
+        <input type="text" name="webdbs[dz_credit_1]" value="$webdb[dz_credit_1]" size="5">
+        个(可选填0.5,1,2,3) </td>
+    </tr>
+    <tr bgcolor="#FFFFFF" > 
+      <td align="left" width="357">1个本系统{$webdb[MoneyName]}兑换论坛金钱:</td>
+      <td align="left" width="1047"> 
+        <input type="text" name="webdbs[dz_credit_2]" value="$webdb[dz_credit_2]" size="5">
+        个(可选填0.5,1,2,3) </td>
+    </tr>
+    <tr bgcolor="#FFFFFF" > 
+      <td align="left" width="357">1个本系统{$webdb[MoneyName]}兑换论坛贡献:</td>
+      <td align="left" width="1047"> 
+        <input type="text" name="webdbs[dz_credit_2]" value="$webdb[dz_credit_2]" size="5">
+        个(可选填0.5,1,2,3) </td>
+    </tr>
+    <tr bgcolor="#FFFFFF" >
+      <td align="left" width="357">论坛默认威望(extcredits1)的名称重新定义为:</td>
+      <td align="left" width="1047">
+        <input type="text" name="webdbs[dz_credit_name1]" value="$webdb[dz_credit_name1]">
+      </td>
+    </tr>
+	<tr bgcolor="#FFFFFF" >
+      <td align="left" width="357">论坛默认金钱(extcredits2)的名称重新定义为:</td>
+      <td align="left" width="1047">
+        <input type="text" name="webdbs[dz_credit_name2]" value="$webdb[dz_credit_name2]">
+      </td>
+    </tr>
+	<tr bgcolor="#FFFFFF" >
+      <td align="left" width="357">论坛默认贡献(extcredits3)的名称重新定义为:</td>
+      <td align="left" width="1047">
+        <input type="text" name="webdbs[dz_credit_name3]" value="$webdb[dz_credit_name3]">
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td align="left" width="357">&nbsp;</td>
+      <td align="left" width="1047"> 
+        <input type="submit" name="Submit" value="提交">
+         
+      </td>
+    </tr>
+  </form>
+</table>
+<table width="100%" border="0" cellspacing="1" cellpadding="3" class="tablewidth"  style='TABLE-LAYOUT: fixed;WORD-WRAP: break-word'>
+     <tr class="head"> 
+      <td align="left">帮助说明</td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      
+    <td align="left">1.你必须整合了DISCUZ论坛才能正常使用本插件.<br>
+      2.以上名称重新定义请不要设置为&quot;论坛积分&quot;,因为模板使用了此名称 </td>
+    </tr>
+ </table>
+<!--
+EOT;
+?>
+-->

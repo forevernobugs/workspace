@@ -1,0 +1,48 @@
+<!--
+<?php
+print <<<EOT
+-->
+<div class="banner banner_s">
+	<!-- <div style=" height:250px;background-color:#113A40; margin:auto">  -->
+	       <div style=" height:250px;background:url('./img/fff1.jpg')  no-repeat center top; margin:auto">
+<!-----------------产品banner一 ----------------->
+
+		<!--<img src="upload_files/article/41/1_20180412100400_NTQ=.jpg" />-->
+       <!-- <img src="img/13.jpg" >-->
+
+<!---------------------产品banner一 结束-------------->
+		<div class="p_intro "><!--width_1000-->
+			<h2 style="color:white; text-align:center; line-height:220px;font-size:35px;">$fidDB[name]</h2>
+			<p>
+
+            
+				</p>
+		</div></div>
+	</div>
+<!--
+EOT;
+$result=@mysql_query('SELECT * FROM `qb_article` WHERE `fid`='.$_GET['fid']);
+while($row=mysql_fetch_array($result))
+{ 
+
+if($fid!=107){ $hover = 'display:none';}
+
+print <<<EOT
+-->
+<div class="scd clearfix">
+    <div class="about">
+    	<img src="upload_files/$row[picurl]" alt="" style="float:left; margin-right:20px;">
+        <b style="font-size:16px; margin-bottom:20px;">$row[title]&nbsp;&nbsp;<a href='upload_files/$row[picurl]' style='$hover' download="图片">下载</a></b><br/>
+       $rsdb[content]
+    </div>
+   
+</div>
+<!--
+EOT;
+}
+print <<<EOT
+-->
+<!--
+EOT;
+?>
+-->

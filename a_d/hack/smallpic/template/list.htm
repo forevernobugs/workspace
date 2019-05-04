@@ -1,0 +1,51 @@
+<!--
+<?php
+print <<<EOT
+--> 
+<br>
+<table width="100%" border="0" cellspacing="1" cellpadding="3" class="tablewidth">
+  <form name="form1" method="post" action="index.php?lfj=$lfj&action=do" target="_blank">
+    <tr class="head"> 
+      <td align="center" colspan="2">&nbsp;</td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td width="17%" >选择提取缩略图类型：</td>
+      <td width="83%" > 
+        <input type="radio" name="isCover" value="0" checked="checked">
+        不覆盖已有缩略图
+        <input type="radio" name="isCover" value="1">
+        覆盖已有缩略图
+		</td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td width="17%" >是否获取站外图片生成缩略图：</td>
+      <td width="83%" >
+      	<input type="radio" name="isCopy" value="0" checked="checked">
+       	不拷贝
+        <input type="radio" name="isCopy" value="1">
+        拷贝
+        （<font color="#FF0000">注：如果选择拷贝，会影响生成缩略图速度</font>）
+       </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+      <td width="17%" >缩略图截取方式：</td>
+      <td width="83%" >
+      	<input type="radio" name="isFill" value="0" checked="checked">
+       	白色背景填充
+        <input type="radio" name="isFill" value="1">
+        截取部分
+        （<font color="#FF0000">注：如果图片比例不协调的时候,你可以选择用白色背景填充或者是只截取部分作为缩略图</font>）
+       </td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td style="padding-left:200px;" colspan="2"> 
+        <input type="submit" name="Submit" value="生成缩略图">
+      </td>
+    </tr>
+  </form>
+</table>
+
+<!--
+EOT;
+?>
+-->

@@ -1,0 +1,183 @@
+<!--
+<?php
+$listdb || $hide_listnews='none';		//如果是大分类的话,就不存在标题,就把标题框隐藏
+!$listdb_moresort && !$listdb && !$fidDB[type] && $hide_listnews='';
+print <<<EOT
+--> 
+<style>
+    #pages a,#pages span{margin-right:10px;padding:5px 13px;height:34px;border: 2px solid #eee;color:#555;text-align:center;line-height:34px;}
+    #pages span {
+        background-color:#DA251D;
+    }
+    a{text-decoration:none;color:#666666;margin:0;padding:0;}
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "hm.js-7f308bffbaa3fd414333a99baed6cb9e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>	<div class="p_banner">
+				<div style=" height:250px;background-color:#113A40; margin:auto">
+<!-----------------产品banner一 ----------------->
+<!--
+EOT;
+if($_GET[fid]==49){ $limit="5,1";}
+elseif($fid==50){ $limit="10,1";}
+elseif($fid==51){ $limit="10,1";}
+elseif($fid==52){ $limit="10,1";}
+elseif($fid==53){ $limit="10,1";}
+elseif($fid==54){ $limit="10,1";}
+elseif($fid==67){ $limit="10,1";}
+elseif($fid==68){ $limit="10,1";}
+$sql="select * from qb_article where fid=41 limit $limit";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+print <<<EOT
+-->
+		<!--<img src="upload_files/$row[picurl]" />-->
+       <!-- <img src="img/13.jpg" >-->
+<!--
+EOT;
+}
+print <<<EOT
+-->
+<!---------------------产品banner一 结束-------------->
+		<div class="p_intro "><!--width_1000-->
+			<h2 style="text-align:center">$fidDB[name]</h2>
+			<p>
+
+            $fidDB[descrip]
+				</p>
+		</div></div>
+	</div>
+	<div class="p_cont width_1000">
+		<div class="cont_top">
+<!---------------产品banner二---------------->
+<!--
+EOT;
+if($_GET[fid]==49){ $limit="6,1";}
+elseif($fid==50){ $limit="11,1";}
+elseif($fid==51){ $limit="11,1";}
+elseif($fid==52){ $limit="11,1";}
+elseif($fid==53){ $limit="11,1";}
+elseif($fid==54){ $limit="11,1";}
+elseif($fid==67){ $limit="11,1";}
+elseif($fid==68){ $limit="11,1";}
+$sql="select * from qb_article where fid=41 limit $limit";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+print <<<EOT
+-->
+	<!--<img src="upload_files/$row[picurl]" />-->
+       <!-- <img alt="" src="img/231.jpg"  />-->
+<!--
+EOT;
+}
+print <<<EOT
+-->
+<!---------------产品banner二结束 ---------------->
+			
+<p>&nbsp;
+	
+</p>		</div>
+	</div>
+	<div class="sisterm">
+		<div class="sist_title"><h2><span>$fidDB[name]</span></h2></div>
+		<ul>
+        
+<!--
+EOT;
+$biao = "article";   //这里写你调用的数据库表名，不加前绰
+$lanmu = "WHERE yz=1 and A.fid={$fid} order by A.list desc"; //查SQL的条件  括号里面写你要调用的栏目，可以查大分类的信息
+$rows = 5;   //这里写你每页显示多少条
+$showpage=getpage("{$pre}{$biao}  A left join qb_reply B on A.aid=B.aid left join qb_article_content_105 C on A.aid=C.aid","{$lanmu}","?fid=$fid",$rows);
+$c = $page - 1;  
+$b=$c*$rows;
+$sql = $db->query("SELECT *  FROM {$pre}{$biao} A left join qb_reply B on A.aid=B.aid left join qb_article_content_105 C on A.aid=C.aid {$lanmu}  limit {$b} , {$rows}");
+while($row = $db->fetch_array($sql))  
+{
+
+$zongshu = preg_replace('/<(.*?)>/',"",$row[my_540]);
+$my_540 = get_word($row[zongshu],300);
+$zhengwen = preg_replace("/<(.*?)>/","",$row[content]);
+$content = get_word($zhengwen,100);
+if(!$row[my_398]){ $my_398 = "style='display:none'";}else{ $my_398 = "";}
+if(!$row[my_546]){ $my_546 = "style='display:none'";}else{ $my_398 = "";}
+if(!$row[my_634]){ $my_634 = "style='display:none'";}else{ $my_398 = "";}
+print <<<EOT
+-->        
+<li>
+				<div class="width_1000">
+					<a href="bencandy.php?fid=$row[fid]&id=$row[aid]" >
+                    <img src="upload_files/$row[picurl]" alt="$row[title]" width="170" height="170"></a>
+            
+					<div class="descrip">
+						<h3><a href="bencandy.php?fid=$row[fid]&id=$row[aid]" >$row[title]</a></h3>
+						<p>$my_540</p>
+						<div class="des_left">
+							<h3>产品规格</h3>
+								<div style="padding: 0 30px; width: 310px;">$content</div>
+						</div>
+						<div class="des_right">
+							<h3>图片</h3>
+							<ul class="photo_ul">
+							
+							
+								<li $my_398>
+									<a><img src="upload_files/$row[my_398]" width="70" height="70"/></a>
+								</li>
+								<li $my_546>
+									<a><img src="upload_files/$row[my_546]" width="70" height="70"/></a>
+								</li>
+								<li $my_634>
+									<a><img src="upload_files/$row[my_634]" width="70" height="70"/></a>
+								</li>
+									<li style="height:0;border:0;margin:0;padding:0;width:70px;"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+						
+						
+						
+<!--
+EOT;
+}
+print <<<EOT
+-->                        
+                        
+                        
+              <div  id="pages" style="margin:20px auto;height:34px;text-align:center;">$showpage</div>  
+    </div>         
+                        
+                        
+                       
+					</ul>
+	</div>
+	<script type="text/javascript">
+		//mengceng
+		$(".img_div").hover(function(){
+			$(this).find(".mj_mc").show();
+		},function(){
+			$(this).find(".mj_mc").hide();
+		})
+
+
+
+		// xiala
+		$(".Li_xiala").hover(function(){
+			$(this).find(".nav_xiala").show();
+		},function(){
+			$(this).find(".nav_xiala").hide();
+		})
+	</script>
+        
+        
+<!--
+EOT;
+?>
+-->

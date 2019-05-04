@@ -1,0 +1,319 @@
+<!--
+<?php
+$listdb || $hide_listnews='none';		//如果是大分类的话,就不存在标题,就把标题框隐藏
+!$listdb_moresort && !$listdb && !$fidDB[type] && $hide_listnews='';
+print <<<EOT
+--> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+   
+   
+   <style>
+.documentation {
+	width: 980px;
+	margin: 0px auto;
+	padding: 100px 0px;
+}
+.documentation h3, p {
+	text-align: center;
+}
+.documentation h3 {
+	margin: 0px 0px 20px 0px;
+	font-weight: 300;
+	font-size: 2em;
+}
+a, a:visited {
+
+	text-decoration: none;
+}
+a:hover {
+	
+	text-decoration:none;
+	cursor: pointer;
+}
+</style>
+   <div class="bananer">
+
+
+		<div class="sub_box">
+			<div id="p-select" class="sub_nav">
+
+				<div class="sub_no" id="bd1lfsj">
+					<ul>
+						<li class="show"></li><li class=""></li><li class=""></li><li class=""></li>
+					</ul>
+				</div>
+			</div>
+			
+    <script src="js/min/jquery-v1.10.2.min.js" type="text/javascript"></script>
+<script src="js/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+<script src="js/min/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+<script src="js/min/flickerplate.min.js" type="text/javascript"></script>
+
+<link href="css/flickerplate.css"  type="text/css" rel="stylesheet">
+
+    <script>
+	$(document).ready(function(){
+		
+		$('.flicker-example').flicker();
+	});
+	</script>
+    	<div class="flicker-example" data-block-text="false">
+  <ul>
+    <li>
+     	<img src="images/ban1.png" />
+    </li>
+    <li>
+     	<img src="images/banna.png" />
+    </li>
+    <li >
+      <img src="images/tjlx_banna.png" />
+    </li>
+  </ul>
+</div>
+    
+    
+ 
+    
+    
+    </td>
+  </tr>
+</table>
+<div class="MainTable MainDivTable"> 
+  <div class="Main"> 
+  
+     $label[list_top_ad1]
+  
+    <!--include
+EOT;
+//这是栏目介绍
+if($webdb[showsortlogo]&&($fidDB[logo]||$fidDB[descrip])){@include("$aboutsortTPL");}print <<<EOT
+include-->
+   
+
+
+   
+   <!--include
+EOT;
+//这是列出大分类里的小栏目部分标题
+
+//pidanselect start 联动搜索开始 //
+if(is_array($select_content)){
+echo '<div border="0" style="border:1px solid #D0D0D0; color:#333;padding:10px;margin-top:5px;font-size:12px;" width="100%" >';
+foreach($select_content as $k=>$v)
+{
+echo '	<div style="line-height:25px;padding-left:10px;">'; 
+echo "<div style='color:#999;font-weight:bold;float:left;margin-top:3px;margin-right:15px;'>".$v[title]."</div>";
+echo "<a href='".$selectlink."&".$k."=all' style='display:block; margin:2px;float:left;padding-left:8px;padding-right:8px;margin-left:6px;";
+	if($v[selected]=="all")
+echo " background-color:#CCFFCC";
+echo "'>全部</a>";
+	foreach ($v[sets] as $k22=>$value2)
+	{
+	
+  
+echo "<a href='".$selectlink."&".$k."=".$k22."' style='display:block; margin:2px; float:left;padding-left:8px;padding-right:8px;margin-left:6px;";
+	if($v[selected]==$value2)
+	echo " background-color:#CCFFCC";
+echo "'>".$value2."</a> ";		
+	}
+echo '<div style="clear:both"></div>';
+echo '</div>';
+}
+echo '</div>';
+}
+//pidanselect end 联动搜索结束//
+//
+
+
+if($listdb_moresort){@include("$bigsortTPL");}
+print<<<EOT
+include-->
+
+
+ 
+	
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable"  id="list_article" style="clear:both;display:$hide_listnews">
+      <tr> 
+        <td class="head"> 
+          <h3 class="L"></h3>
+          <span class="TAG"><a editurl='$webdb[www_url]/do/job.php?job=list&fid=$fid&act=do'>$fidDB[name]</a></span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" style="padding:0 0 0 0;"> 
+          <!--include
+EOT;
+//小栏目的标题
+if($listdb){@include("$listTPL");}print<<<EOT
+include-->
+          <div class="page">$showpage</div>
+        </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="Side"> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable" id="sonSortName">
+      <tr> 
+        <td class="head" height="19"> 
+          <h3 class="L"></h3>
+          <span class="TAG">相关栏目</span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" align="left"> 
+          <!--include
+EOT;
+//相关栏目名称
+@include("$sortnameTPL");print<<<EOT
+include-->        </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td style="padding-top:5px;" align="right">{$label[list_page_mv]}</td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td style="padding-top:5px;" align="right">{$label[list_page_topad]}</td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable">
+      <tr> 
+        <td class="head" height="19"> 
+          <h3 class="L"></h3>
+          <span class="TAG">热门{$fidDB[M_alias]}</span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" align="left"> 
+<!--
+EOT;
+if($webdb[ListPageTitle_nojs]){
+$shows=listpage_title($fid,'hot',$webdb[JsListRows],$webdb[JsListLeng],$id);
+print <<<EOT
+-->
+$shows
+<!--
+EOT;
+}else{print <<<EOT
+-->
+<script language="JavaScript">
+<!--
+document.write('<div id="article_Hottopic">$Load_Msg</div>');
+document.write('<div style="display:none;"><iframe src="$webdb[www_url]/do/jsarticle.php?fid=$fid&type=hot&rows=$webdb[JsListRows]&leng=$webdb[JsListLeng]&iframeID=article_Hottopic" width=0 height=0></iframe></div>');
+//-->
+</script>
+<!--
+EOT;
+}print <<<EOT
+-->
+        </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable">
+      <tr> 
+        <td class="head"> 
+          <h3 class="L"></h3>
+          <span class="TAG">推荐{$fidDB[M_alias]}</span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" valign="top" align="left"> 
+          <!--
+EOT;
+if($webdb[ListPageTitle_nojs]){
+$shows=listpage_title($fid,'com',$webdb[JsListRows],$webdb[JsListLeng],$id);
+print <<<EOT
+-->
+$shows
+<!--
+EOT;
+}else{print <<<EOT
+-->
+<script language="JavaScript">
+<!--
+document.write('<div id="article_Comtopic">$Load_Msg</div>');
+document.write('<div style="display:none;"><iframe src="$webdb[www_url]/do/jsarticle.php?fid=$fid&type=com&rows=$webdb[JsListRows]&leng=$webdb[JsListLeng]&iframeID=article_Comtopic" width=0 height=0></iframe></div>');
+//-->
+</script>
+<!--
+EOT;
+}print <<<EOT
+-->
+        </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable">
+      <tr> 
+        <td class="head"> 
+          <h3 class="L"></h3>
+          <span class="TAG">{$label[article_list_tag]}</span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" valign="top" align="left"> {$label[article_list]} </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable">
+      <tr> 
+        <td class="head"> 
+          <h3 class="L"></h3>
+          <span class="TAG">{$label[bbsifmark_tag]}</span> 
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+      <tr> 
+        <td class="middle" valign="top" align="left"> {$label[bbsifmark]} </td>
+      </tr>
+      <tr> 
+        <td class="foot"> 
+          <h3 class="L"></h3>
+          <h3 class="R"></h3>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="cleardiv"></div>
+<!--
+EOT;
+?>
+-->

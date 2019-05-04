@@ -1,0 +1,100 @@
+.js-index-slider {
+	height: 200px;
+	overflow: hidden;
+	background-color:#282828;
+	background-size:14px 14px;
+}
+.js-index-slider .ui-swipeslide-slide {
+	height: 200px;
+	position: relative;
+}
+.js-index-slider .ui-swipeslide-bullets {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.js-index-slider .ui-swipeslide-slide a{
+	display: block;
+}
+.js-index-slider .ui-swipeslide-slide p {
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 100%;
+	padding-left: 5px;
+	line-height: 25px;
+	-webkit-box-sizing:border-box;
+}
+.js-index-slider .ui-swipeslide-slide p span {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+}
+.js-index-slider .ui-swipeslide-slide img {
+	width: auto;
+	max-width: 100%;
+}
+.js-index-slider>.ui-swipeslide-bullets>li{
+	background-color: #fff;
+	margin: 0 5px 2px 5px;
+}
+.js-index-slider>.ui-swipeslide-bullets>li.active {
+	background-color: #03befb;
+	border-width: 0;
+
+}
+.ui-swipeslide,.ui-swipeslide-reel,.ui-swipeslide-slide,.ui-swipeslide-slide img{
+	width: 100%;
+	display: block;
+}
+.ui-swipeslide {
+	position: relative;
+	overflow: hidden;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+.ui-swipeslide-reel {
+	-webkit-transform: translate3d(0,0,0);
+	overflow: hidden;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+}
+.ui-swipeslide-vertical .ui-swipeslide-reel {
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+	box-orient: vertical;
+}
+.ui-swipeslide-slide {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ui-swipeslide-bullets {
+	text-align:center;
+	margin-top: 10px;
+}
+.ui-swipeslide-bullets li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	background-color: #999;
+	text-indent: -1000px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.ui-swipeslide-bullets li.active {
+	background:transparent;
+	border: 3px solid #999;
+	border-radius: 8px;
+}
+

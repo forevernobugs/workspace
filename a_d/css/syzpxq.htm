@@ -1,0 +1,120 @@
+<!--
+<?php
+print <<<EOT
+-->
+
+<style>
+.gren{width:1200px;height:150px;margin-top:20px; color:#fff; border-bottom:1px solid 43403E;padding-bottom:20px;}
+.gren_za{width:150px;height:150px;float:left;}.gren_za img{ width:150px;height:150px;}
+.gren_zb{width:930px; float:left;height:150px;float:left;margin-left:20px;}
+.gren_zb_ia{height:30px;line-height:30px;width:300px;font-size:16px;}
+.gren_zb_ia span{ font-size:14px; color:#ABAAA9;}
+.pot_wc_b div,.pot_wc_c div,.pot_wc_d div{ float:left;}
+.cont{ width:1200px; overflow:hidden;}
+.pil{width:900px;float:left;}.pir{ width:300px; float:left;}
+.xint{ display:block;width:140px;height:40px;line-height:40px; text-align:center; background:#da975d; color:#fff; border:1px solid #da975d; border-radius:5px;}
+.ksf_hd {width:868px;overflow:hidden;border:1px solid #43403e;margin-top:20px;clear:both;}
+.ksf_hd1 {width:100%;height:39px;border-bottom:1px solid #43403e;color:#da975d;}
+.ksf_hd1	span	{margin-left:20px;font-size:16px;line-height:38px;font-weight:bold;}
+.ksf_hd2 {width:828px;height:200px;margin:0 auto;}
+.ksf_hd3	{width:100%;height:150px;background:#3a342f;margin-top:18px;}
+.inp_hd3	{width:828px;border:0px;height:150px;font-size:14px;color:#a6a4a3;background:#3a342f;line-height:20px;padding-left:5px;}
+.ksf_hd4	{width:100%;margin-top:10px;}
+.ksf_hd4 li{float:left;list-style-type:none}
+.ksf_hd5	{width:220px;height:40px;}
+.inp_hd5 	{width:220px;height:40px;background:#3a342f;border:0px;}
+.ksf_hd6	{width:434px;height:40px;margin-left:10px;}
+.ksf_hd7	{width:150px;text-align:center;line-height:40px;font-size:20px;}
+.ksf_hd7 a{ display:block; width:150px; height:40px; background:#DA975D;color:#FFF; font-size:14px;}
+.exp{ width:875px;height:150px;border:1px solid #43403E;padding:5px; line-height:22px;}
+.exp_pa{ color:#ACAAA8; font-size:14px;}.exp_pa span{ color:#8F6745;}
+.exp_pb{ width:150px;height:40px; line-height:40px;margin-left:700px;margin-top:20px; text-align:center;}
+.exp_pb a{ display:block;width:150px;height:40px; background:#DA975D; color:#fff;}
+</style>
+
+<div style="width:1200px;margin:20px auto 0 auto;">
+	<div class="gren">
+    	<div class="gren_za"><img src="$rsdb[picurl]" /></div>
+    	<div class="gren_zb">
+        	<div class="gren_zb_ia">$rsdb[title]<span style="margin-left:15px;">$rsdb[posttime]</span></div>
+            <div style="width:900px;height:30px;">
+            	 <div class="pot_wc_b" style="">
+                	<div class="pot_wc_b1"><img src="images/she-6.png" /></div>
+               		<div class="pot_wc_b2" style="color:#956B48"> {$rsdb[hits]}</div>
+                </div>
+                <div class="pot_wc_c">
+                	<div class="pot_wc_c1"><img src="images/she-7.png" /></div>
+                	<div class="pot_wc_c2" style="color:#956B48"> $rsdb[digg_num]</div>
+                </div>
+               <div class="pot_wc_d">
+               		 <div class="pot_wc_d1"><img src="images/she-8.png" /></div>
+               		 <div class="pot_wc_d2" style="color:#956B48">{$rsdb[comments]}</div>
+               </div>
+               </div>
+               <div style="color:#ABAAA9; height:30px;line-height:30px; font-size:14px;">作者：<span style="color:#956B48">$rsdb[username]</span></div>
+               <div>
+               		<div class="tit_hdxq_4" style="margin-left:750px">
+			<ul>
+						<li style="">分享到:</li>
+						<li><a href="#"><img src="images/pic_f1.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f2.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f3.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f4.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f5.gif"></a></li>
+						<li><a href="#"><img src="images/pic_f6.gif"></a></li>
+			</ul>
+		</div>
+               </div>
+           
+        </div>
+    </div>
+    <div class="cont">$rsdb[content]</div>
+    <div class="pil">
+    	<div class="ksf_hd">
+ <div class="ksf_hd1"><span>快速发布新帖</span></div>
+       <div class="psh_hyp_2"" >
+			
+			
+<!--include
+EOT;
+
+$dbhost = 'localhost';		// 数据库服务器(一般不必改)
+$dbuser = 'root';			// 数据库用户名
+$dbpw = 'R1F6pUR38g';					// 数据库密码
+$dbname = 'yelv';				// 数据库名
+$pre='qibosoft_';				// 网站表区分符 
+$pre='qibosoft_';				// 网站表区分符 
+$link = mysql_connect('localhost','root','R1F6pUR38g');
+if(!$link){
+echo '数据库连接失败';
+}
+mysql_select_db('yelv'); 
+
+//评论调用代码
+if($webdb[showComment] && $fidDB[allowcomment] && !$rsdb[forbidcomment]){
+	//if( $webdb[allowGuestComment] || (!$webdb[allowGuestComment]&&$lfjid) || (!$webdb[allowGuestComment]&&$id_array) ){
+		@include(html("bencandy_tpl/comment"));
+	//}
+}print <<<EOT
+include-->	
+		</div>
+
+
+</div>
+    </div>
+    <div class="pir">
+    	<div style=" color:#fff; font-size:14px; height:30px;line-height:30px;">ta的其他作品</div>
+       	<div><img src="" /></div>
+        <div style=" color:#fff; font-size:14px; height:30px;line-height:30px;">编辑推荐作品</div>
+        <div><img src="" /></div>
+    </div>
+</div>
+
+
+
+
+
+<!--
+EOT;
+?>
+-->

@@ -1,0 +1,52 @@
+<!--<?php
+$picartic = showartic($type="pic",$rows=5,$leng=50);
+$slideCode="";
+foreach($picartic AS $key=>$rs){
+	$rs[picurl]=str_replace('_jpg.gif','.jpg',$rs[picurl]);
+    $rs[picurl]=str_replace('_gif.gif','.gif',$rs[picurl]);
+    $rs[picurl]=str_replace('_png.gif','.png',$rs[picurl]);
+	$slideCode.="<li><a href=\"bencandy.php?fid=$rs[fid]&id=$rs[aid]\"><img src=\"$rs[picurl]\"><p><span>$rs[title]</span></p></a></li>\n";
+}
+unset($listmorsort);
+foreach($TheWapTopSort AS $key=>$rs){
+    $listmorsort.="<div class=\"ListMoreSort\">\n";
+    $listmorsort.="<div class=\"head\"><h2>$rs[name]</h2><a href=\"list.php?fid=$rs[fid]\"></a></div>\n";
+    $listmorsort.="<div class=\"cont\">\n";    
+    $listmorsort.=formatShow($rs[fid],6);
+    $listmorsort.="<a href=\"list.php?fid=$rs[fid]\" class=\"ShowMore\">²é¿´{$rs[name]}</a>";
+    $listmorsort.="</div>\n";
+    $listmorsort.="</div>\n";
+}
+print <<<EOT
+-->
+<link rel="stylesheet" href="./css/slider.css" />
+<div class="ShowSlide">
+    <section class="js-index-slider">
+        <ul>
+            $slideCode
+        </ul>
+    </section>
+    <section class="ListHotArtic">
+    	<ul>
+<!--
+EOT;
+$ListHotArtic = showartic($type="hot",$rows=5,$leng=80);
+foreach($ListHotArtic AS $key=>$rs){
+$linurl=$rs[mid]?"$webdb[www_url]/bencandy.php?fid=$rs[fid]&id=$rs[aid]":"bencandy.php?fid=$rs[fid]&id=$rs[aid]";
+print <<<EOT
+-->
+			<li><a href="$linurl">$rs[title]</a></li>	
+<!--
+EOT;
+}
+//$sorts1=ListThisSorts(3,10,50,1);
+print <<<EOT
+-->
+        </ul>
+    </section>
+</div>
+$listmorsort
+<!--
+EOT;
+?>
+-->

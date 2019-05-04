@@ -1,0 +1,165 @@
+<!--
+<?php
+print <<<EOT
+-->
+<!-------------------------------------------------------中部开始----------------------------------------->
+<style>
+
+.center{width:100%;height:auto;border:0px solid black;float:left;margin:-120px auto;position:relative;}
+.bj{width:1100px;height:850px;border:0px solid green;margin:0 auto;margin-top:20px;}
+.bj_left{width:200px;height:auto;border:0px solid red;float:left;margin:0px auto 0 30px;}
+#bj_right{border:1px solid #CCCCCC;margin:60px auto 0 30px;font:16px "微软雅黑";width:800px;height:auto;float:left;border-radius:15px;}
+*,body,ul,h1,h2{ margin:0; padding:0; list-style:none;}
+body{font:12px "宋体"; padding-top:20px;}
+a{ color:#777;border:none;}
+#menu { width:200px; margin:60px auto 0 0px;border:0px solid black;}
+#menu h1 { font-size:12px; border:#C60 1px solid;border-radius:10px; margin-top:5px;width:190px;text-indent:0px;background-color:#D2D2D2;border:1px solid black;font:14px "微软雅黑";font-weight:bold;}
+#menu a:hover{ color:#8D8D8D; background:#FFFFFF;border-radius:10px;}
+
+ #menu h2 { font-size:13px; border:#E7E7E7 1px solid; border-top-color:#FFF;width:190px; background-color:#F4F4F4;text-indent:0px;}
+ #menu ul { padding-left:15px; height:100px;border:#E7E7E7 1px solid; border-top:none;}
+ #menu a { display:block; padding:5px 0 3px 10px; text-decoration:none;}
+
+ #menu .no {display:none;line-height:10px;}
+ #menu .h1 a{color:#424242;text-decoration:none;width:180px;height: 32px;}
+ #menu .h2 a{color:#676767;text-decoration:none;width:180px;height: 32px;;}
+  .ditu{width:200px;height:526px;border:0px solid black;margin-top:5px;}
+</style>
+<script language="JavaScript">
+<!--//
+function ShowMenu(obj,n){
+ var Nav = obj.parentNode;
+ if(!Nav.id){
+  var BName = Nav.getElementsByTagName("ul");
+  var HName = Nav.getElementsByTagName("h2");
+  var t = 2;
+ }else{
+  var BName = document.getElementById(Nav.id).getElementsByTagName("span");
+  var HName = document.getElementById(Nav.id).getElementsByTagName("h1");
+  var t = 1;
+ }
+ for(var i=0; i<HName.length;i++){
+  HName[i].innerHTML = HName[i].innerHTML.replace("-","+");
+  HName[i].className = "";
+ }
+ obj.className = "h" + t;
+ for(var i=0; i<BName.length; i++){if(i!=n){BName[i].className = "no";}}
+ if(BName[n].className == "no"){
+  BName[n].className = "";
+  obj.innerHTML = obj.innerHTML.replace("+","-");
+ }else{
+  BName[n].className = "no";
+  obj.className = "";
+  obj.innerHTML = obj.innerHTML.replace("-","+");
+ }
+}
+//-->
+</script>
+<div style="clear:both;"></div>
+
+	<div class="center">
+	<div class="bj">
+	<div class="bj_left">
+	
+	<div id="menu">
+	<h1 onClick="javascript:ShowMenu(this,0)"><a href="javascript:void(0)">户外高压真空断路器系列</a></a></h1>
+ <span class="menu"> 
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=144">ZW8高压真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=146">ZW10高压真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=149">ZW32高压真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=150">ZW20高压真空断路器</a></h2>
+ <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=151">ZW43高压真空断路器</a></h2>
+ <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=152">ZW7高压真空断路器</a></h2>
+ <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=153">ZW6高压真空断路器</a></h2>
+ </span>
+ 
+ <h1 onClick="javascript:ShowMenu(this,1)"><a href="javascript:void(0)"> 永磁高压真空断路器系列</a></h1>
+ <span class="no"  style="border:0px solid green;width:180px;height:auto;">
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=143">ZW32-12M永磁真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=142">ZW8-12M永磁真空断路器</a></h2>
+ <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=154">VS1-12永磁真空断路器</a></h2>
+ </span>
+        
+ 
+    
+ <h1 onClick="javascript:ShowMenu(this,2)"><a href="javascript:void(0)">看门狗智能分界开关系列</a></h1>
+ <span class="no"  style="border:0px solid green;width:180px;height:auto;">
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=67">ZW32-12看门狗真空断路器</a></h2>  
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=68">ZW32-24看门狗真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=67">ZW8-12看门狗真空断路器</a></h2>  
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=68">FZW28-24看门狗真空断路器</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=67">ZW20-12看门狗真空断路器</a></h2>  
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=68">ZW43-24看门狗真空断路器</a></h2>
+  
+ </span>
+ 
+ <h1 onClick="javascript:ShowMenu(this,3)"><a href="javascript:void(0)">预付费高压计量装置系列</a></h1>
+ <span class="no"  style="border:1px solid green;width:180px;height:auto;">
+  <h2 onClick="javascript:ShowMenu(this,0)"><a href="$webdb[www_url]/list.php?fid=69">ZW32P-12预付费计量装置</a></h2>  
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=70">ZW8P-12预付费计量装置</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,1)"><a href="$webdb[www_url]/list.php?fid=70">ZW6P-12预付费计量装置</a></h2>
+ <br/>
+ 
+ 
+ </span>
+ 
+ 
+ 
+  <h1 onClick="javascript:ShowMenu(this,4)"><a href="javascript:void(0)">高压(真空)负荷开关系列</a></h1>
+ <span class="no" style="border:0px solid green;width:180px;height:auto;">
+  <h2 onClick="javascript:ShowMenu(this,2)"><a href="$webdb[www_url]/list.php?fid=165">FN3-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=166">FN5-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=167">FN7-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=168">FKN-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=169">FZN12-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=170">FZN16-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=171">FZN21-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=172">FZN25-12高压负荷开关</a></h2>
+  <h2 onClick="javascript:ShowMenu(this,3)"><a href="$webdb[www_url]/list.php?fid=173">FZW32-12高压负荷开关</a></h2>
+  
+ </span>
+ 
+ 
+ 
+ 
+	</div>
+	
+	</div>
+	<div id="bj_right">
+	<div id="con_right1" style="text-align:right;"><!--产品展示-->您的位置：&nbsp;<a href="">首页</a>$GuideFid[$fid]</div>  
+			 <div id="con_right2_chanpin" >
+			 
+			 
+			 
+			 
+			 
+			 
+			 <!--include
+EOT;
+//小栏目的标题
+if($listdb){@include("$listTPL");}print<<<EOT
+include-->
+			 
+			 <div  class="page" style="text-align:center; font-size:16px;line-height:50px;font-weight:bold;">$showpage</div>
+			 </div>
+			 
+		
+	
+	
+	</div>
+	</div>
+	</div>
+
+
+
+
+ 
+
+<!------------------------------------------中部结束------------------------------------------------------------->
+
+<div style="clear:both;"></div>
+
+<!--
+EOT;
+?>
+-->

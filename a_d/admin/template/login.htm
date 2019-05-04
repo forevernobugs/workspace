@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<!--
+<?php
+print <<<EOT
+-->
+<title>{$webdb[webname]}后台管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.2900.3132" name=GENERATOR>
+<LINK href="images/login/admin.css" type=text/css rel=stylesheet>
+</HEAD>
+<BODY>
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=center bgColor=#3b3b3b>&nbsp;</TD>
+    <TD vAlign=center align=right bgColor=#3b3b3b>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top bgColor=#3b3b3b colSpan=2>
+      <TABLE height=600 cellSpacing=0 cellPadding=0 width=1000 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top 
+            background=images/login/admin_login_bj.jpg><TABLE 
+            height=487 cellSpacing=0 cellPadding=0 width=1000 border=0>
+              <TBODY>
+              <TR>
+                <TD width=389 height=292>&nbsp;</TD>
+                <TD width=347>&nbsp;</TD>
+                <TD width=264>&nbsp;</TD></TR>
+              <TR>
+                <TD height=195>&nbsp;</TD>
+                <TD vAlign=top>
+                <form name="form1" method="post" action="">
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=27><SPAN class=searchbar><INPUT 
+                        class=login_input style="WIDTH: 345px" 
+                        type="text" name="loginname"> </SPAN></TD></TR>
+                    <TR>
+                      <TD>&nbsp;</TD></TR>
+                    <TR>
+                      <TD height=28><SPAN class=searchbar><INPUT 
+                        class=login_input id=txtPwd style="WIDTH: 344px" 
+                        type="password" name="loginpwd"> </SPAN></TD></TR></TBODY></TABLE>
+                  <TABLE height=134 cellSpacing=0 cellPadding=0 width="100%" 
+                  border=0>
+                    <TBODY>
+                    <!--
+EOT;
+{
+$path=$Murl?$webdb[www_url]:'..';
+print <<<EOT
+--> <TR>
+                      <TD vAlign=bottom noWrap width="34%" height=46><INPUT 
+                        class=login_input style="WIDTH: 107px" 
+                        type="text" name="yzimg"></TD>
+                      <TD vAlign=bottom width="66%">
+					  <SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write('<img border="0" id="yz_Img" name="imageField" onclick="this.src=this.src+Math.random();" src="$path/do/yzimg.php?'+Math.random()+'">');
+//-->
+</SCRIPT></TD></TR> <!--
+EOT;
+}
+print <<<EOT
+-->
+                    <TR>
+                      <TD colSpan=2 height=47><SPAN 
+                    class=red_link></SPAN></TD></TR>
+                    <TR>
+                      <TD colSpan=2><SPAN class=searchbar><INPUT class=login_button value=" " type=submit name="Submit"> 
+                        </SPAN></TD></TR></TBODY></TABLE></TD>
+                <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                 </form>
+                </TD></TR>
+  <TR>
+    <TD vAlign=top bgColor=#3b3b3b 
+colSpan=2>&nbsp;</TD></TR></TBODY></TABLE>
+
+
+
+
+</BODY>
+</HTML>
+<!--
+EOT;
+?>
+-->

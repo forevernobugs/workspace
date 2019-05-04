@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh_CN">
+<!--<?php
+$ckid=($fidDB[fup])?$fidDB[fup]:$fid;
+$ckclass=($ckid)?"":"class=\"ck\"";
+$listmenu="<li $ckclass><a href=\"$webdb[www_url]/wap/\">首页</a></li>\n";
+$TheWapTopSort=TheWapTopSort();
+foreach($TheWapTopSort AS $key=>$rs){
+	$ckclass=($ckid==$rs[fid])?"class=\"ck\"":"";
+	$listmenu.="<li $ckclass><a href=\"list.php?fid=$rs[fid]\">$rs[name]</a></li>\n";
+}
+print <<<EOT
+-->
+<head>
+<meta charset="gb2312" />
+<meta name="viewport" content="width=device-width, initial-scale=1; maximum-scale=1.0; user-scalable=no;" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black"  />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>$titleDB[title]</title>
+<link rel="stylesheet" href="./css/global.css" />
+<script src="./js/zepto.min.js"></script>
+<script src="./js/swipeslide.js"></script>
+<script src="./js/touchapp.js"></script>
+</head>
+<body>
+<!--
+EOT;
+if($fid){
+print <<<EOT
+-->
+<header>
+    <a href="$webdb[www_url]/wap/" class="HomeLink"></a>
+    <div class="ShowFname">{$fidDB[name]}</div>
+    <div class="ShowSearch"></div>
+</header>
+<!--
+EOT;
+}else{
+print <<<EOT
+-->
+<header>
+    <div class="ShowMenu"></div>
+    <div class="ShowLogo"></div>
+    <div class="ShowSearch"></div>
+</header>
+<menu class="ListMenu TopMenu showhidden">
+	<ul>
+    	$listmenu
+    </ul>
+</menu>
+<!--
+EOT;
+}
+print <<<EOT
+-->
+<div class="TopSearch showhidden">
+    <form action="search.php" method="post">
+        <input class="keyword" type="text" placeholder="请输入关键词" name="keyword" value="" />
+        <input type="submit" value="" />
+    </form>
+</div>
+<!--
+EOT;
+?>
+-->

@@ -1,0 +1,203 @@
+<!--
+<?php
+$Y = date("Y");
+$m = date("M");
+$d = date("d");
+print <<<EOT
+-->
+<link rel="stylesheet" type="text/css" href="yu-css/thems.css">
+<div id="xwdt">
+    <div class="xwdt_banner"  style="height:220px;width:100%">
+<!--
+EOT;
+if($_GET[fid]==63||$fid==64){ $limit="7,1";}
+$sql="select * from qb_article where fid=41 limit $limit";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+print <<<EOT
+-->
+		<img src="upload_files/$row[picurl]" width="100%" height="220px;"/>
+       <!-- <img src="img/13.jpg" >-->
+<!--
+EOT;
+}
+print <<<EOT
+-->
+    </div>
+    <div class="xwdt_content clearfix">
+        <ul class="f_l" style="margin-top:80px;">
+            <li><a href="list.php?fid=63" >新闻动态</a></li>
+<!--
+EOT;
+$sql="select * from qb_sort where fup=45";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result))
+{  if($fid==$row[fid]){ $hover = "hover" ; }else{ $hover = "" ; }
+print <<<EOT
+-->
+		<li class="$hover"><a href="list.php?fid=$row[fid]" >$row[name]</a></li>		
+<!--
+EOT;
+}
+print <<<EOT
+-->
+			<!--<li class="hover"><a href="index.php-c=content&a=list&catid=22.htm" >公司动态</a></li>
+			  
+			<li ><a href="index.php-c=content&a=list&catid=23.htm" >媒体报道</a></li>-->
+			        </ul>
+        <div class="xwdt_lujing f_r">
+            当前位置：<a href="index.php" >首页</a> > 
+            <a href="list.php?fid=63"  title="新闻动态">新闻动态</a> &gt;&nbsp;&nbsp;
+            <a href="list.php?fid=$fid"  title="$fname">$fidDB[name]</a>        </div>
+        <div class="xwdt_lable f_r">
+            <!-- 第 1 条新闻 -->
+        <div class="xwdt_xq_title f_r">
+             <ul class="xwdt_xq_word">
+                <li>$rsdb[title]</li>
+                <li>发布者:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp$rsdb[username]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp浏览次数:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+				$rsdb[hits]
+				<!--<script type="text/javascript" src="index.php-c=api&a=hits&id=196&hits=32.js"></script>--></li>
+                <li>发布时间:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp$rsdb[posttime]</li>
+                <li>
+                    <!--
+					<a href="javascript:"><img src="/views/default/images/xwdt_xq_01.png"></a>
+                    <a href="javascript:"><img src="/views/default/images/xwdt_xq_02.png"></a>
+                    <a href="javascript:"><img src="/views/default/images/xwdt_xq_03.png"></a>
+                    <a href="javascript:"><img src="/views/default/images/xwdt_xq_04.png"></a>
+                    <a href="javascript:"><img src="/views/default/images/xwdt_xq_05.png"></a>
+					-->
+					<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+					<script>
+					window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["weixin","tsina","qzone","tqq","sqq"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","tsina","qzone","tqq","sqq"]}};
+					with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+					</script>
+                </li>
+            </ul>
+            <div class="xwxq_img f_r">
+                <p>$d</p>
+                <p>$m</p>
+                <p>$Y</p>
+            </div>
+        </div>
+        $rsdb[time_Y]  
+        <div class="xwxq_centent">
+           $rsdb[content]
+           <!--<p style="text-align:center;">
+	<img src="22-3.jpg"  width="500" height="333" alt="" />
+</p>
+<p>
+	近日，我司《同方微信一卡通系统V2.0》获得国家版权局颁发的计算机软件著作权登记证书。
+</p>
+<p>
+	同方微信一卡通系统，将微信应用与一卡通系统整合，用户通过关注企业微信访问微信一卡通系统，实现<span style="font-size:14px;"><strong>现金充值、访客预约和记录查询</strong></span>等功能。
+</p>
+<p style="text-align:center;">
+	<strong><span style="font-size:14px;">现金充值</span></strong>
+</p>
+<p>
+	现金充值：是系统提供用户通过微信平台给自己对应的一卡通账户充值的功能。
+</p>
+<p style="text-align:center;">
+	<span style="font-size:14px;"><strong>访客预约</strong></span>
+</p>
+<p>
+	访客预约：是系统提供通过微信平台办理访客预约的功能。预约成功后，需要相关人员审批，才能够进行正常的访客预约。
+</p>
+<p style="text-align:center;">
+	<span style="font-size:14px;"><strong>记录查询</strong></span>
+</p>
+<p>
+	记录查询：可查询充值、消费、考勤和访客的预约记录。
+</p>
+<p style="text-align:center;">
+	<img src="23-2.jpg" tppabs="http://www.thtfria.com.cn/uploadfiles/image/201803/23.jpg" width="500" height="333" alt="" />
+</p>
+<p>
+	“软件著作权”登记证书是软件知识产权所有权的法律依据。此次知识产权的获得是我司研发工作的又一阶段性成果。未来，公司将继续坚持以用户需求为中心，把握行业发展方向，不断研发新产品，以创新推动企业的可持续发展。
+</p>
+<p>
+	更为详细的内容敬请登录：www.thtfria.com.cn
+</p>        -->
+</div>
+            
+    </div>
+</div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- 版权信息 -->
+<div class="bg_a">
+    <ul class="f_nav clearfix">
+        <li>
+            <div class="name"><b>技术支持</b></div>
+                   <p><a href="list.php?fid=89">常见问题</a></p>
+                    <p><a href="list.php?fid=90">售后&维修</a></p>
+                    <p><a href="list.php?fid=91">下载</a></p>
+        </li>
+        <li>
+            <div class="name"><b>关于我们</b></div>
+            <p><a href="bencandy.php?fid=65&id=805">了解我们</a></p>
+            <p><a href="bencandy.php?fid=78&id=911">加入我们</a></p>
+            <p><a href="list.php?fid=48">联系我们</a></p>
+        </li>
+        <li class="f_ct">
+            <div class="name"><b>联系方式<i>&nbsp;</i></b></div>
+            <p>
+                <a href="mailto:$webdb[email]">
+                    <img src="images/icon6.png" alt=""/>
+                    <span>邮箱:$webdb[email]</span>
+                </a>
+            </p>
+            <p>
+                <a href="tel:$webdb[phone]">
+                    <img src="images/icon5.png" alt=""/>
+                    <span>电话:$webdb[phone]</span>
+                </a>
+            </p>
+<!--            <p class="share">
+                <a href=""><img src="images/f1.png" alt=""/></a>
+                <a href=""><img src="images/f2.png" alt=""/></a>
+                <a href=""><img src="images/f3.png" alt=""/></a>
+                <a href=""><img src="images/f4.png" alt=""/></a>
+            </p>-->
+        </li>
+        <li class="dz">
+            <div class="name"><b>我们的地址</b></div>
+            <p>$webdb[cname]<br/>
+                $webdb[ename]</p>
+            <p>$webdb[address]</p>
+            <p>
+                TEL：$webdb[tel]
+                <a href="list.php?fid=48" class="map">网站地图</a>
+            </p>
+          <div class="f_s">
+                <form  method="post" action="http://www.test.com/do/search.php" target='spiframe'>
+                  <td>
+                    <input type="text" name="keyword" placeholder="搜索: 关键字 ">
+                    <input type="submit"  value="搜索" target="_blank">
+                  </td>
+                </form>
+
+        </div>
+        </li>
+    </ul>
+</div>
+<div class="f_bg">
+	<div class="bq clearfix">
+    	<div class="bq_l">
+            <a href="list.php?fid=92">法律声明</a> | 
+            <a href="list.php?fid=93">隐私保护</a>
+        </div>
+        <div class="bq_r" style='width:59%;'>$webdb[copyright]</div>
+    </div>
+</div>
+
+<!-- content -->
+<!--
+EOT;
+?>
+-->

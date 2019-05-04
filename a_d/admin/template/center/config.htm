@@ -1,0 +1,167 @@
+<!--
+<?php
+$_max_upload=$max_upload*1024;
+print <<<EOT
+--> 
+ 
+<table width='100%' cellspacing='1' cellpadding='3' class="tablewidth">
+  <form name="form1" method="post" action="index.php?lfj=$lfj&action=$job">
+    <tr class="head"> 
+      <td colspan='2'> 
+        <div align='center'><b><font color='#FFFFFF'>网站核心设置</font></b></div>      </td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">网站名称:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[webname]' size='50' value='$webdb[webname]'>      </td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">网站热点关键词:<span help="1">(填写与你网站相关的热门词语,每个用空格隔开,主要是方便搜索引擎收录你的网站.此项内容可以留空)</span></div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[metakeywords]' size='50' value='$webdb[metakeywords]'>      </td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">网站描述:<span help="1">(填写与你网站相关的热门词语,每个用空格隔开,主要是方便搜索引擎收录你的网站.此项内容可以留空)</span></div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[description]' size='50' value='$webdb[description]'>      </td>
+    </tr>
+    <!--
+EOT;
+if( eregi("^pwbbs",$webdb[passport_type])||eregi("^dzbbs",$webdb[passport_type]) ){print <<<EOT
+-->
+    <!--
+EOT;
+}print <<<EOT
+-->
+    <tr bgcolor="#FFFFFF"> 
+      <td width='29%'> 
+        <div align="left">网站打开还是关闭:<span help="1">如果选择关闭的话,前台将禁止所有人访问,但管理员还是可以访问后台的</span></div>      </td>
+      <td width="84%"> 
+        <input type="radio" name="webdbs[web_open]" value="1" $web_open1>
+        开放 
+        <input type="radio" name="webdbs[web_open]" value="0" $web_open0>
+        关闭</td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td width='29%'> 
+        <div align="left">关闭原因:</div>      </td>
+      <td width="84%"> 
+        <textarea cols='50' name='webdbs[close_why]' rows='8'>$webdb[close_why]</textarea>      </td>
+    </tr>
+	
+    <!--
+EOT;
+if(!$webdb[path]){print <<<EOT
+-->
+    <!--
+EOT;
+}print <<<EOT
+-->
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF' rowspan="2">整站访问网址:</td>
+      <td bgcolor='#FFFFFF' width="84%" class="tdhelp"> 
+        <input type="text" name="webdbs[www_url]" value="$webdb[www_url]" size="50">
+        (非常重要,请正确填写) </td>
+    </tr>
+    <tr> 
+      <td bgcolor='#FFFFFF' width="84%" class="tdhelp">比如http://www.haoniu.co 
+        结尾不要留有<b><font color="#FF0000">/</font></b> <b><font color="#FF0000"><br>
+        </font></b>请必须正确填写,否则会造成图片不能显示及链接路径有错<br>
+        提示:系统检测到你的地址是<font color="#0000FF"><b>{$truepath}</b></font>,如果你认为没错的话,请在上面表单输入<font color="#0000FF"><b>{$truepath}</b></font><br>
+        重要提示:如果你的是单位网站,需要内网IP与外网域名同时能访问的话(网站必须要装在根目录,并且不能设置COOKIE域名),请输入<font color="#FF0000"><b>/.</b></font></td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'>后台访问网址:<span help=1>如果你的后台目录名被修改过,不是admin的话,这里要对应的作以修改,否则不能设置标签!</span></td>
+      <td bgcolor='#FFFFFF' width="84%" class="tdhelp"> 
+        <input type="text" name="webdbs[admin_url]" value="$webdb[admin_url]" size="50">
+        (不能留空,如果你把后台目录admin改名后.这里也要跟着修改,否则标签不能设置) </td>
+    </tr>
+    <!--
+EOT;
+if(!$webdb[path]){print <<<EOT
+-->
+    <!--
+EOT;
+}print <<<EOT
+-->
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'  > 
+        <div align="left">网站备案号:<span help=1>如果你还没备案或忘记备案号,<a href="http://www.miibeian.gov.cn" target="_blank">请点击这里</a></span></div>      </td>
+      <td bgcolor='#FFFFFF'> 
+        <input type="text" size="30" name="webdbs[miibeian_gov_cn]" value="$webdb[miibeian_gov_cn]">      </td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'>网页底部版权信息:</td>
+      <td bgcolor='#FFFFFF'> 
+        <textarea cols='60' name='webdbs[copyright]' rows='5'>$webdb[copyright]</textarea>      </td>
+    </tr>
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'>管理员后台登录是否使用验证码:</td>
+      <td colspan='2' bgcolor='#FFFFFF'> 
+        <input type="radio" name="webdbs[yzImgAdminLogin]" value="1" $yzImgAdminLogin[1]>
+        使用 
+        <input type="radio" name="webdbs[yzImgAdminLogin]" value="0" $yzImgAdminLogin[0]>
+        不使用</td>
+    </tr>
+     <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">地址:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[address]' size='50' value='$webdb[address]'>      </td>
+    </tr>
+	 <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">公司英文名:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[ename]' size='50' value='$webdb[ename]'>      </td>
+    </tr>
+	 <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">公司中文名:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[cname]' size='50' value='$webdb[cname]'>      </td>
+    </tr>
+	 <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">手机:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[phone]' size='50' value='$webdb[phone]'>      </td>
+    </tr>
+	 <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">固话:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[tel]' size='50' value='$webdb[tel]'>      </td>
+    </tr>
+	 <tr> 
+      <td width='29%' bgcolor='#FFFFFF'> 
+        <div align="left">邮箱:</div>      </td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='text' name='webdbs[email]' size='50' value='$webdb[email]'>      </td>
+    </tr>
+   
+    <!--
+EOT;
+if($webdb[path]){print <<<EOT
+-->
+
+
+    <!--
+EOT;
+}print <<<EOT
+-->
+
+    <tr> 
+      <td width='29%' bgcolor='#FFFFFF'>&nbsp;</td>
+      <td bgcolor='#FFFFFF' width="84%"> 
+        <input    type='submit' name='w' value='保存设置'>      </td>
+    </tr>
+  </form>
+</table>
+<!--
+EOT;
+?>
+-->

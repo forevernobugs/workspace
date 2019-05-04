@@ -1,0 +1,109 @@
+<!--
+<?php
+print <<<EOT
+--> 
+ 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="MainTable">
+  <tr> 
+    <td height="100" valign="top" class="Main"> 
+      
+	  
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="dragTable" >
+        <tr> 
+          <td class="head">兑入：论坛积分转化成本系统的{$webdb[MoneyName]}</td>
+        </tr>
+        <tr> 
+          <td class="middle" style="padding:5px;" align="center"> 
+            <form name="form1" method="post" action="">
+              欲购入本系统的{$webdb[MoneyName]}: 
+              <input type="text" name="atc_num" size="10">
+              {$webdb[MoneyDW]}<br>
+              <br>
+              通过消耗论坛哪种积分兑换: 
+              <input type="radio" name="type" value="1">
+              {$webdb[dz_credit_name1]} 
+              <input type="radio" name="type" value="2">
+              {$webdb[dz_credit_name2]} 
+              <input type="radio" name="type" value="3">
+              {$webdb[dz_credit_name3]} <br>
+              <br>
+              <input type="submit" name="Submit" value="立即兑入">
+              <input type="hidden" name="step" value="2">
+              <br>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td class="middle" style="padding:5px;" align="left">注意:<br>
+            1. 你当前具有{$webdb[dz_credit_name1]} <font color="#FF0000">{$dzCR[extcredits1]}</font> 个,{$webdb[dz_credit_name2]} 
+            <font color="#FF0000">{$dzCR[extcredits2]}</font> 个,{$webdb[dz_credit_name3]} <font color="#FF0000">{$dzCR[extcredits3]}</font> 
+            个.<br>
+            2. 换本系统{$webdb[MoneyName]} <font color="#0000FF">1</font> {$webdb[MoneyDW]}需要{$webdb[dz_credit_name1]} 
+            <font color="#0000FF">{$scaleA[c1]}</font> 个,换本系统{$webdb[MoneyName]} 
+            <font color="#0000FF">1</font> {$webdb[MoneyDW]}需要{$webdb[dz_credit_name2]} <font color="#0000FF">{$scaleA[c2]}</font> 
+            个,换本系统{$webdb[MoneyName]} <font color="#0000FF">1</font> {$webdb[MoneyDW]}需要{$webdb[dz_credit_name3]} 
+            <font color="#0000FF">{$scaleA[c3]}</font> 个<br>
+            3. 扣除论坛积分不足一个的,会以一个计算.<br>
+            4. 这里操作会增加本系统的{$webdb[MoneyName]},而要消费论坛的积分<br>
+            5. 你当前具有本系统{$webdb[MoneyName]} <font color="#0000FF">$lfjdb[money]</font> {$webdb[MoneyDW]}</td>
+        </tr>
+         
+        <tr> 
+          <td class="foot"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="dragTable" >
+        <tr> 
+          <td class="head">兑出：本系统的{$webdb[MoneyName]}转化成论坛积分</td>
+        </tr>
+        <tr> 
+          <td class="middle" style="padding:5px;" align="center"> 
+            <form name="form1" method="post" action="">
+              购入论坛哪种类型的积分: 
+              <input type="radio" name="type" value="1">
+              {$webdb[dz_credit_name1]} 
+              <input type="radio" name="type" value="2">
+              {$webdb[dz_credit_name2]} 
+              <input type="radio" name="type" value="3">
+              {$webdb[dz_credit_name3]} <br>
+              <br>
+              欲购入数量: 
+              <input type="text" name="atc_num" size="10">
+              个<br>
+              <br>
+              <input type="submit" name="Submit" value="立即兑出">
+              <input type="hidden" name="step" value="3">
+              <br>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td class="middle" style="padding:5px;" align="left">注意:<br>
+            1. 你当前具有{$webdb[dz_credit_name1]} <font color="#FF0000">{$dzCR[extcredits1]}</font> 个,{$webdb[dz_credit_name2]} 
+            <font color="#FF0000">{$dzCR[extcredits2]}</font> 个,{$webdb[dz_credit_name3]} <font color="#FF0000">{$dzCR[extcredits3]}</font> 
+            个.<br>
+            2. 换{$webdb[dz_credit_name1]} <font color="#0000FF">1</font> 个需要本系统{$webdb[MoneyName]} <font color="#0000FF">{$scaleB[c1]}</font> 
+            {$webdb[MoneyDW]},换{$webdb[dz_credit_name2]} <font color="#0000FF">1</font> 个需要本系统{$webdb[MoneyName]} 
+            <font color="#0000FF">{$scaleB[c2]}</font> {$webdb[MoneyDW]},换{$webdb[dz_credit_name3]} 
+            <font color="#0000FF">1</font> 个需要本系统{$webdb[MoneyName]} <font color="#0000FF">{$scaleB[c3]}</font> 
+            {$webdb[MoneyDW]}<br>
+            3. 扣除本系统的{$webdb[MoneyName]}不足一个的,会以一个计算.<br>
+            4. 这里操作会增加论坛的积分,而要消费本系统的{$webdb[MoneyName]}.<br>
+            5. 你当前具有本系统{$webdb[MoneyName]} <font color="#0000FF">$lfjdb[money]</font> {$webdb[MoneyDW]}</td>
+        </tr>
+         
+        <tr> 
+          <td class="foot"></td>
+        </tr>
+      </table>
+      
+     
+	 
+    </td>
+  </tr>
+</table>
+<!--
+EOT;
+?>
+-->

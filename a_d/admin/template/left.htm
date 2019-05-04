@@ -1,0 +1,133 @@
+<html>
+<!--
+<?php
+print <<<EOT
+-->
+<head>
+<title>{$webdb[webname]}后台管理</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="images/style.css" type="text/css">
+<script language="javascript">
+//if(self==top){window.location="index.php?iframe=1";}
+</script>
+<SCRIPT language=JavaScript>
+function killErrors() {
+	return true;
+}
+window.onerror = killErrors;
+</SCRIPT>
+<SCRIPT language=javascript>
+function showson(ss){
+	if (document.getElementById(ss).style.display == 'none'){
+		document.getElementById(ss).style.display = '';
+	}else{
+		document.getElementById(ss).style.display = 'none';
+	}
+}
+function showmenu(ss){
+	for(i=0;i<500;i++){
+		obj=document.getElementById("s"+i);	
+		if(ss=='open'){
+			if(obj && obj.style.display=="none"){
+				obj.style.display="";
+			}
+		}else{
+			if(obj && obj.style.display==""){
+				obj.style.display="none";
+			}
+		}
+	}
+	
+}
+</script>
+</head>
+<body leftmargin="0" topmargin="0" >
+<div id="leftmenu"> 
+  <table cellspacing='0' cellpadding='0' class='tablewidth_menu'>
+    <tr> 
+      <td class="head_menu"><a href='javascript:' onclick='showson("s")'>当前状态</a></td>
+    </tr>
+    <tr> 
+      <td class="c_menu"> 
+        <table width='100%' cellspacing='0' cellpadding='0' style='display:' id=s>
+          <tr> 
+            <td style='padding-left:10px;line-height:16px;'> 帐号:<strong>$userdb[username]</strong> 
+              <br>
+              级别: 
+              <!--
+EOT;
+if($admin_name==$userdb[username]){
+print <<<EOT
+-->
+              <a title='$userdb[groupid]'>创始人</a> 
+              <!--
+EOT;
+}else{
+print <<<EOT
+-->
+              {$ltitle[$userdb[groupid]]} 
+              <!--
+EOT;
+}
+print <<<EOT
+-->
+              <br>
+              <a href="index.php?lfj=center&job=map" target="main">管理首页</a> <a href=?action=quite target=main>安全退出</a><br>
+              <a href='$webdb[www_url]/{$ModuleDB[$Smenu][dirname]}' target="_blank">查看首页</a> 
+             <br>
+              
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="5" cellspacing="0">
+    <TR>
+      <TD bgcolor="#83B4E8"  class="head_menu">标签管理</TD>
+    </TR>
+    <TR>
+      <TD onMouseOver="this.className='leftA'" onMouseOut="this.className='leftB'"><A href="#" target="main"></A>主页<IMG src="../images/default/article_elite.gif"> <A href="../index.php?&ch=1&chtype=0&jobs=show" target="main">标签</A> <A href="index.php?lfj=channel&job=list_fid&onlyshow=style" target="main">风格</A>
+          <!----></TD>
+    </TR>
+    <TR>
+      <TD onMouseOver="this.className='leftA'" onMouseOut="this.className='leftB'">栏目<IMG src="../images/default/article_elite.gif"> <A href="../do/job.php?job=jump&pagetype=list_label" target="main">标签</A>  <A href="index.php?lfj=channel&job=list_fid&onlyshow=style" target="main">风格</A>
+          <!----></TD>
+    </TR>
+    <TR>
+      <TD onMouseOver="this.className='leftA'" onMouseOut="this.className='leftB'"><A href="#" target="main"></A>内容<IMG src="../images/default/article_elite.gif"> <A href="../do/job.php?job=jump&pagetype=bencandy_label" target="main">内容页标签</A> </TD>
+    </TR>
+  </table><table width="100%" border="0" cellspacing="0" cellpadding="5">
+  <tr>
+    <td bgcolor="#83B4E8">内容管理</td>
+  </tr>
+  <tr>
+    <td>新闻<IMG src="../images/default/article_elite.gif"> <A href="index.php?lfj=post&job=postnew&only=1&mid=0" target="main">发表</A> <A href="index.php?lfj=artic&job=listartic&mid=0&only=1" target="main">管理</A> <A href="index.php?lfj=sort&job=listsort&mid=0&only=1" target="main">栏目</A></td>
+  </tr>
+  <tr>
+    <td>产品<IMG src="../images/default/article_elite.gif"> <A href="index.php?lfj=post&job=postnew&only=1&mid=105" target="main">发表</A> <A href="index.php?lfj=artic&job=listartic&mid=105&only=1" target="main">管理</A> <A href="index.php?lfj=sort&job=listsort&mid=105&only=1" target="main">栏目</A> </td>
+  </tr>
+  <tr>
+    <td> <IMG src="../images/default/article_elite.gif"><A href="index.php?lfj=module_admin&dirname=guestbook&file=content&job=list" target="main">留言本管理</A></td>
+  </tr>
+  <tr>
+    <td bgcolor="#83B4E8">系统参数</td>
+  </tr>
+  <tr>
+    <td><IMG src="../images/default/article_elite.gif"><A href="index.php?lfj=center&job=config" target="main">核心全局参数设置</A> </td>
+  </tr>
+  <tr>
+    <td><A href="index.php?lfj=module_admin&dirname=form&file=form_content&job=list" target="main">表单管理</A></td>
+  </tr>
+  <tr>
+    <td><A href="index.php?lfj=member&job=list" target="main">修改密码</A></td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>
+<!--
+EOT;
+?>
+-->

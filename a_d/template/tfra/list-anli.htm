@@ -1,0 +1,157 @@
+<!--
+<?php
+print <<<EOT
+--><link rel="stylesheet" type="text/css" href="yu-css/thems.css">
+<div style="clear:both"></div>
+<div id="xwdt">
+   <!-- <div class="xwdt_banner"  style="height:220px;width:100%;background-color: #113A40;"> -->
+         <div class="xwdt_banner"  style=" height:250px;background:url('./img/fff1.jpg')  no-repeat center top; margin:auto">
+		<h1 style="color:white; text-align:center; line-height:220px;font-size:35px;">$fidDB[name]</h1>
+<!--
+EOT;
+if($_GET[fid]==63||$fid==64){ $limit="7,1";}
+$sql="select * from qb_article where fid=41 limit $limit";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+print <<<EOT
+-->
+		<!--<img src="upload_files/$row[picurl]" width="100%" height="220px;"/>-->
+       <!-- <img src="img/13.jpg" >-->
+<!--
+EOT;
+}
+print <<<EOT
+-->
+    </div> 
+    <div class="xwdt_content clearfix" >
+        <ul class="f_l" style="margin-top:80px;">
+            <li><a href="list.php?fid=79" >典型案例</a></li>
+<!--
+EOT;
+$sql="select * from qb_sort where fup=44";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result))
+{  if($fid==$row[fid]){ $hover = "hover" ; }else{ $hover = "" ; }
+print <<<EOT
+-->
+		<li class="$hover"><a href="list.php?fid=$row[fid]" >$row[name]</a></li>		
+<!--
+EOT;
+}
+print <<<EOT
+-->
+			<!--<li class="hover"><a href="index.php-c=content&a=list&catid=22.htm" >公司动态</a></li>
+			  
+			<li ><a href="index.php-c=content&a=list&catid=23.htm" >媒体报道</a></li>-->
+			        </ul>
+        <div class="xwdt_lujing f_r">
+            当前位置：<a href="index.php" >首页</a> > 
+            <a href="list.php?fid=79"  title="典型案例">典型案例</a> &gt;&nbsp;&nbsp;
+            <a href="list.php?fid=$fid"  title="$fname">$fidDB[name]</a>        </div>
+        <div class="xwdt_lable f_r">
+            <!-- 第 1 条新闻 -->
+<!--
+EOT;
+$biao = "article";   //这里写你调用的数据库表名，不加前绰
+$lanmu = "WHERE yz=1 and fid=$fid"; //查SQL的条件  括号里面写你要调用的栏目，可以查大分类的信息
+$rows = 9;   //这里写你每页显示多少条
+$showpage=getpage("{$pre}{$biao}","{$lanmu}","?fid=$fid",$rows);
+$c = $page - 1;  
+$b=$c*$rows;
+$sql = $db->query("SELECT *  FROM {$pre}{$biao}  {$lanmu}  limit {$b} , {$rows}");
+while($row = $db->fetch_array($sql))  
+{
+
+print <<<EOT
+-->				<div class="News" style="width:auto;display:inline-block;margin-left:5px; margin-bottom:25px;">
+					<a href="bencandy.php?fid=$row[fid]&id=$row[aid]" class="xwdt_imgdiv">
+						<img src="upload_files/$row[picurl]"  width="250" height="140">
+					
+					
+						<p align="center">$row[title]</p>
+						</a>
+					
+				</div>
+<!--
+EOT;
+}
+print <<<EOT
+-->							
+			<div id="pages">
+            $showpage
+           </div>
+        </div>
+    </div>
+</div>
+<!-- 版权信息 -->
+<div class="bg_a">
+    <ul class="f_nav clearfix">
+        <li>
+            <div class="name"><b>技术支持</b></div>
+                   <p><a href="list.php?fid=89">常见问题</a></p>
+                    <p><a href="list.php?fid=90">售后&维修</a></p>
+                    <p><a href="list.php?fid=91">下载</a></p>
+        </li>
+        <li>
+            <div class="name"><b>关于我们</b></div>
+            <p><a href="bencandy.php?fid=65&id=805">了解我们</a></p>
+            <p><a href="bencandy.php?fid=78&id=911">加入我们</a></p>
+            <p><a href="list.php?fid=48">联系我们</a></p>
+        </li>
+        <li class="f_ct">
+            <div class="name"><b>联系方式<i>&nbsp;</i></b></div>
+            <p>
+                <a href="mailto:$webdb[email]">
+                    <img src="images/icon6.png" alt=""/>
+                    <span>邮箱:$webdb[email]</span>
+                </a>
+            </p>
+            <p>
+                <a href="tel:$webdb[phone]">
+                    <img src="images/icon5.png" alt=""/>
+                    <span>电话:$webdb[phone]</span>
+                </a>
+            </p>
+<!--            <p class="share">
+                <a href=""><img src="images/f1.png" alt=""/></a>
+                <a href=""><img src="images/f2.png" alt=""/></a>
+                <a href=""><img src="images/f3.png" alt=""/></a>
+                <a href=""><img src="images/f4.png" alt=""/></a>
+            </p>-->
+        </li>
+        <li class="dz">
+            <div class="name"><b>我们的地址</b></div>
+            <p>$webdb[cname]<br/>
+                $webdb[ename]</p>
+            <p>$webdb[address]</p>
+            <p>
+                TEL：$webdb[tel]
+                <a href="list.php?fid=48" class="map">网站地图</a>
+            </p>
+          <div class="f_s">
+                <form  method="post" action="http://www.test.com/do/search.php" target='spiframe'>
+                  <td>
+                    <input type="text" name="keyword" placeholder="搜索: 关键字 ">
+                    <input type="submit"  value="搜索" target="_blank">
+                  </td>
+                </form>
+
+        </div>
+        </li>
+    </ul>
+</div>
+<div class="f_bg">
+	<div class="bq clearfix">
+    	<div class="bq_l">
+            <a href="list.php?fid=92">法律声明</a> | 
+            <a href="list.php?fid=93">隐私保护</a>
+        </div>
+        <div class="bq_r" style='width:59%;'>$webdb[copyright]</div>
+    </div>
+</div>
+
+<!-- content -->
+<!--
+EOT;
+?>
+-->

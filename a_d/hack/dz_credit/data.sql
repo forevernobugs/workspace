@@ -1,0 +1,1 @@
+INSERT INTO `qb_hack` (`keywords`, `name`, `isclose`, `author`, `config`, `htmlcode`, `hackfile`, `hacksqltable`, `adminurl`, `about`, `class1`, `class2`, `list`, `linkname`, `isbiz`) VALUES ('dz_credit', 'DZÂÛÌ³»ý·Ö¶Ò»»', 0, '', '', '', '', '', 'index.php?lfj=dz_credit&job=set', '', 'other', '', 1, '', 0);

@@ -1,0 +1,24 @@
+/* CSS Document */
+*{ padding:0; margin:0;}
+body,html{ overflow-x:hidden;}
+body{font:12px/18px Arial, Helvetica, sans-serif;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+ul,ol{ list-style:none;}
+a{ text-decoration:none;}
+a img{ border:0;}
+.main1{ width:1180px; height:530px; margin:0 auto; position:relative; background:url(../images/index_04.gif) no-repeat center bottom;}
+.cle{ clear:both;}
+.main4{ width:1180px; overflow:hidden; margin:0 auto;}
+.main4 li{ width:190px; height:190px; float:left;margin-left:60px; background:url(../images/index_33.gif) no-repeat; padding-top:25px; padding-left:5px;}
+.main4 ul{margin-left:-60px;}
+.boxgrid{ width:190px; height:180px; overflow:hidden; position:relative; background:url(../images/index_37.gif) no-repeat; color:#e9dbc0;}
+.boxgrid img{ position:absolute; top:0; left:0;}
+.boxgrid h3{ font:16px/28px "微软雅黑"; padding-top:13px; padding-left:12px;}
+.boxgrid h3 span{ font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.boxgrid p{ line-height:28px; padding-left:12px;}
+.boxgrid a{ padding-left:12px; text-decoration:underline; color:#fff; line-height:28px;}
+#anli_li1{ width:305px;}
+#anli_li2{ width:305px;}
+
+/*代码整理：www.97zzw.com - 97站长网*/
+

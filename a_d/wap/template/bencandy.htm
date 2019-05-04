@@ -1,0 +1,30 @@
+<!--
+<?php
+$backdb[title] || ($backdb[title]="没有了") && ($backdb[click]="return false;");
+$nextdb[title] || ($nextdb[title]="没有了") && ($nextdb[click]="return false;");
+$GuideFid[$fid] = str_replace($webdb[www_url],$webdb[www_url]."/wap/",$GuideFid[$fid]);
+$GuideFid[$fid] = str_replace("&gt;首页","首页",$GuideFid[$fid]);
+print <<<EOT
+-->
+<div class="nav_guide">当前位置：$GuideFid[$fid]</div>
+<article class="article-container">
+	<div class="head">
+    	<h1>$rsdb[title]</h1>
+        <div>
+        	<time>{$rsdb[posttime]}</time>
+            浏览:{$rsdb[hits]}次
+        </div>
+    </div>
+    <section>
+    	$rsdb[content]
+    </section>
+</article>
+{$showpage}
+<div class="MoreLinks">
+<div class="up"><a href="bencandy.php?fid=$backdb[fid]&id=$backdb[aid]" onclick="$backdb[click]">上一篇</a>：<a href="bencandy.php?fid=$backdb[fid]&id=$backdb[aid]" onclick="$backdb[click]" title="$backdb[title]">$backdb[title]</a></div>
+<div class="dowm"><a href="bencandy.php?fid=$nextdb[fid]&id=$nextdb[aid]" onclick="$nextdb[click]">下一篇</a>：<a href="bencandy.php?fid=$nextdb[fid]&id=$nextdb[aid]" onclick="$nextdb[click]" title="$nextdb[title]">$nextdb[title]</a></div>
+</div>
+<!--
+EOT;
+?>
+-->

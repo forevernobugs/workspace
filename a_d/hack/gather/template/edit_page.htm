@@ -1,0 +1,171 @@
+<!--
+<?php
+print <<<EOT
+--> 
+<table width='100%' cellspacing='1' cellpadding='3' class="tablewidth"  id="top_menu">
+  <tr> 
+    <td>[<a href="index.php?lfj=$lfj&job=list">采集参数列表</a>] [<a href="index.php?lfj=$lfj&job=add_title">手工添加新规则</a>] 
+      [<a href="index.php?lfj=$lfj&job=addrulesql">导入新规则</a>] [<a href="http://bbs.haoniu.co/thread-forum-fid-10324.htm" target="_blank">下载新规则</a>] 
+      [<a href="index.php?lfj=$lfj&job=edit_title&id=$id">修改标题参数</a>] [<a href="index.php?lfj=$lfj&job=edit_content&id=$id">修改内容参数</a>]</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="3" cellspacing="1" class="tablewidth">
+  <form name="formse" id="formse" method="post" action="index.php?lfj=$lfj&action=$job&id=$id" >
+    <tr class="head" bgcolor="#FFFFFF"> 
+      <td colspan="2">&gt;&gt;请把随意某个具有两页以上的内容页当中的第一页与第二页网址复制到如下即可</td>
+    </tr>
+   
+    <tr bgcolor="#FFFFFF"  > 
+      <td width="40%"> 
+        <p>第一页的网址:(任意一篇,只要有两页以上即可，别误把列表页的第一页搞到这里来)</p>
+      </td>
+      <td width="60%"> 
+        <input type="text" name="first_page" size="70" value="$first_page">
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFFF"  > 
+      <td width="40%">第二页的网址:(以上选中的那篇当中的第二页，别误把列表页的第二页搞到这里来)</td>
+      <td width="60%"> 
+        <input type="text" name="second_page" size="70" value="$second_page">
+      </td>
+    </tr>
+    <tr bgcolor="#EEEEEE"   align="center"> 
+      <td colspan="2"> 
+        <input type="checkbox" name="suset" value="checkbox"  onClick="show_suset(0)">
+        手工输写规则<font color="#0000FF">(一般用不到)</font></td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="articletr_su"> 
+      <td width="40%">多页处理:默认首页被替换的字符<br>
+        (如留空,内容如有多页将不采集直接跳过)<br>
+        比如: <br>
+        第一页<font color="#0000FF">http://haoniu.co/1/index</font><font color="#FF0000">.html</font><br>
+        第二页<font color="#0000FF">http://haoniu.co/1/index</font>_2.html<br>
+        那么右边的表单填<font color="#FF0000">.html<br>
+        </font>分析规则就是对比第一页与第二页的网址从左到右哪个字符出现不同,就把之后的字符复制出来</td>
+      <td width="60%"> 
+        <input type="text" name="show_firstpage" size="70" value="$rsdb[show_firstpage]">
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="articletr_su"> 
+      <td width="40%">多页处理:变动的页去替换的字符<br>
+        (留空,内容如有多页将不采集直接跳过)<br>
+        比如: <br>
+        第一页<font color="#0000FF">http://haoniu.co/1/index</font>.html<br>
+        第二页<font color="#0000FF">http://haoniu.co/1/index</font><font color="#FF0000">_2.html</font><br>
+        那么右边的表单填<font color="#FF0000">_[page].html<br>
+        </font>分析规则就是对比第一页与第二页的网址从左到右哪个字符出现不同,就把第二页之后的字符复制出来,并把变动的页码数字用[page]替换</td>
+      <td width="60%"> 
+        <input type="text" name="show_morepage" size="70" value="$rsdb[show_morepage]">
+      </td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="articletr_su"> 
+      <td width="40%">多页时.第二页是否怪癖,<br>
+        比如: <br>
+        第一页http://haoniu.co/1/index.html<br>
+        第二页http://haoniu.co/1/index_<font color="#FF0000">1</font>.html<br>
+        此时属于怪癖的,按常理说应该是以下这个<br>
+        http://haoniu.co/1/index_<font color="#FF0000">2</font>.html <br>
+        所以右边请选择是,一般情况都是选否的 </td>
+      <td width="60%"> 
+        <input type="radio" name="show_spe2page" value="1" $show_spe2pagedb[1]>
+        是 
+        <input type="radio" name="show_spe2page" value="0" $show_spe2pagedb[0]>
+        否 </td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td width="40%"> 
+        <input type="hidden" name="testgather">
+      </td>
+      <td width="60%"> 
+        <input type="button" name="Submit" value="提交" onclick="post(0)">
+        <input type="submit" name="Submit2" value="跳过" onClick="post(0)">
+      </td>
+    </tr>
+  </form>
+</table>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function post(va){
+	if(va==1){
+		document.formse.target="_blank";
+	}else{
+		document.formse.target="";
+	}
+	document.formse.testgather.value=va
+	document.formse.submit();
+}
+
+
+function show_more(va){
+	var s=document.getElementsByTagName("tr");
+	for(var i=0;i<s.length;i++){
+		if( va=="article" ){
+			if(s[i].className=='articletr'){
+				s[i].style.display="";
+			}
+			if(s[i].className=='filetr'){
+				s[i].style.display="none";
+			}	
+		}else if( va=="file" ){
+			if(s[i].className=='articletr'){
+				s[i].style.display="none";
+			}
+			if(s[i].className=='filetr'){
+				s[i].style.display="";
+			}	
+		}else{
+			if(s[i].className=='articletr'){
+				s[i].style.display="none";
+			}
+			if(s[i].className=='filetr'){
+				s[i].style.display="none";
+			}
+		}
+	}
+}
+show_more('$type');
+
+function show_suset(va){
+	var s=document.getElementsByTagName("tr");
+	for(var i=0;i<s.length;i++){
+		if( document.formse.suset.checked==true ||va==1 ){
+			if(s[i].className=='articletr_su'){
+				s[i].style.display="";
+			}	
+		}else{
+			if(s[i].className=='articletr_su'){
+				s[i].style.display="none";
+			}	
+		}
+	}
+}
+show_suset(0);
+//-->
+</SCRIPT>
+<script language="Javascript">
+function CopyText(obj) {
+	ie = (document.all)? true:false
+	if (ie){
+		var rng = document.body.createTextRange();
+		rng.moveToElementText(obj);
+		rng.scrollIntoView();
+		rng.select();
+		rng.execCommand("Copy");
+		rng.collapse(false);
+		alert(obj.innerText+'被复制成功');
+	}
+}
+</script>
+<table width="100%" border="0" cellpadding="3" cellspacing="1" class="tablewidth">
+  <tr class="head" bgcolor="#FFFFFF"> 
+    <td colspan="2">帮助说明</td>
+  </tr>
+  <tr> 
+    <td>1、以上所说的第一页与第二页，指的是内容页里边的分页，别误把列表页的第一页与第二页搞到这里来<br>
+      2、手工输写规则，一般不用填写，系统会根据你输入的第一页与第二页规则自动生成</td>
+  </tr>
+</table>
+<!--
+EOT;
+?>
+-->

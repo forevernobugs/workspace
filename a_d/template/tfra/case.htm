@@ -1,0 +1,60 @@
+<!--
+<?php
+print <<<EOT
+-->
+<div style="clear:both"></div>
+<div id="xwdt">
+    <div class="xwdt_banner"  style="height:220px;width:100%; background-color:#113A40;">
+		<h1 style="color:white; text-align:center; line-height:220px;">$fidDB[name]</h1>
+<!--
+EOT;
+if($_GET[fid]==63||$fid==64){ $limit="7,1";}
+$sql="select * from qb_article where fid=41 limit $limit";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result)){
+print <<<EOT
+-->
+		<!--<img src="upload_files/$row[picurl]" width="100%" height="220px;"/>-->
+       <!-- <img src="img/13.jpg" >-->
+<!--
+EOT;
+}
+print <<<EOT
+-->
+    </div>
+    <div class="xwdt_content clearfix" style="margin-top:30px;">
+        <ul class="f_l">
+            <li><a href="list.php?fid=79" >典型案例</a></li>
+<!--
+EOT;
+$sql="select * from qb_sort where fup=44";
+$result=@mysql_query($sql);
+while($row=mysql_fetch_array($result))
+{  if($fid==$row[fid]){ $hover = "hover" ; }else{ $hover = "" ; }
+print <<<EOT
+-->
+		<li class="$hover"><a href="list.php?fid=$row[fid]" >$row[name]</a></li>		
+<!--
+EOT;
+}
+print <<<EOT
+-->
+			<!--<li class="hover"><a href="index.php-c=content&a=list&catid=22.htm" >公司动态</a></li>
+			  
+			<li ><a href="index.php-c=content&a=list&catid=23.htm" >媒体报道</a></li>-->
+			        </ul>
+        <div class="xwdt_lujing f_r">
+            当前位置：<a href="index.php" >首页</a> > 
+            <a href="list.php?fid=79"  title="典型案例">典型案例</a> &gt;&nbsp;&nbsp;
+            <a href="list.php?fid=$fid"  title="$fname">$fidDB[name]</a>        </div>
+        <div class="xwdt_lable f_r">
+        $rsdb[content]
+        </div>
+    </div>
+</div>
+
+<!-- content -->
+<!--
+EOT;
+?>
+-->

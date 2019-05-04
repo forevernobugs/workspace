@@ -1,0 +1,211 @@
+<!--
+<?php
+print <<<EOT
+-->
+<link rel="stylesheet" type="text/css" href="yu-css/thems.css">
+<script>
+	$(function(){
+		$('.prod_left>ul>li>a').click(function(){
+			$(this).siblings().slideDown().parent().siblings().find('ul').slideUp();
+		})
+		$('.def').click(function(){
+			$('html,body').animate({scrollTop:$('.pro_def').offset().top},500)
+		});
+		$('.pic').click(function(){
+			$('html,body').animate({scrollTop:$('.pic_show').offset().top},500)
+		});
+		$('.rule').click(function(){
+			$('html,body').animate({scrollTop:$('.pro_rule').offset().top},500)
+		});
+
+	})
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "hm.js-7f308bffbaa3fd414333a99baed6cb9e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>	<!-- 双色背景 end -->
+	<div class="width_1000" style="overflow: hidden;clear:both">
+		<div class="prod_left">
+			<ul> 
+<!--
+EOT;
+$sql="select * from qb_sort where fup=42";
+$res=@mysql_query($sql);
+while($row=mysql_fetch_array($res))
+{if($fid==$row[fid]){$a=" ";}else{ $a= "slideup";}
+print <<<EOT
+-->
+		<li>
+        	<a>$row[name] </a>
+			<ul class="$a">
+<!--
+EOT;
+$sqlt="select * from qb_article where fid=$row[fid] order by list desc";
+$result=@mysql_query($sqlt);
+while($rowt=mysql_fetch_array($result)){
+if($id==$rowt[aid]){$b=hover;}else{$b=" ";}
+print <<<EOT
+-->
+            	<li><a class="$b" href="bencandy.php?fid=$row[fid]&id=$rowt[aid]">$rowt[title]</a></li>
+<!--
+EOT;
+}
+print <<<EOT
+-->
+            </ul>
+        </li>
+<!--
+EOT;
+}
+print <<<EOT
+-->				 
+				
+			</ul>
+		</div>
+        
+<style>
+div{ color:#000}
+</style>        
+
+		<div class="prod_right">
+			<h2 style="background: url($rsdb[picurl]) no-repeat -5px 30px/170px 170px"> $rsdb[title]</h2>
+			<p class="prod_right_540">$rsdb[my_540]</p>
+			<ul style="margin-top: 30px;">
+				<li><a class="def">产品特点</a></li>
+				<li><a class="pic">图片展示</a></li>
+				<li><a class="rule">产品规格</a></li>
+   			</ul>
+
+			<div class="pro_def">
+				<h3>产品特点</h3>
+				<div>
+					<p>$rsdb[my_561]
+	
+<p>
+	<br />
+</p>				</div>
+				<h3 class="pic_show">图片展示</h3>
+				<div class="photo">
+					<a href="javascript:;" class="prev"></a>
+					<ul class="photo_ul">
+												<li>
+							<a><img src="$rsdb[my_398]"  width="100" height="100"/>
+							<p>$rsdb[my_159]</p></a>
+						</li>
+												<li>
+							<a><img src="$rsdb[my_546]"  width="100" height="100"/>
+							<p>$rsdb[my_811]</p></a>
+						</li>
+												<li>
+							<a><img src="$rsdb[my_634]"  width="100" height="100"/>
+							<p>$rsdb[my_882]</p></a>
+						</li>
+											</ul>
+					<a href="javascript:;" class="next"></a>
+				</div>
+				<h3 class="pro_rule">产品规格</h3>
+				<div>$rsdb[content]</div>
+			</div>
+
+		</div>
+	</div>
+    <!-- 版权信息 -->
+<div class="bg_a">
+    <ul class="f_nav clearfix">
+        <li>
+            <div class="name"><b>技术支持</b></div>
+                   <p><a href="list.php?fid=89">常见问题</a></p>
+                    <p><a href="list.php?fid=90">售后&维修</a></p>
+                    <p><a href="list.php?fid=91">下载</a></p>
+        </li>
+        <li>
+            <div class="name"><b>关于我们</b></div>
+            <p><a href="bencandy.php?fid=65&id=805">了解我们</a></p>
+            <p><a href="bencandy.php?fid=78&id=911">加入我们</a></p>
+            <p><a href="list.php?fid=48">联系我们</a></p>
+        </li>
+        <li class="f_ct">
+            <div class="name"><b>联系方式<i>&nbsp;</i></b></div>
+            <p>
+                <a href="mailto:$webdb[email]">
+                    <img src="images/icon6.png" alt=""/>
+                    <span>邮箱:$webdb[email]</span>
+                </a>
+            </p>
+            <p>
+                <a href="tel:$webdb[phone]">
+                    <img src="images/icon5.png" alt=""/>
+                    <span>电话:$webdb[phone]</span>
+                </a>
+            </p>
+<!--            <p class="share">
+                <a href=""><img src="images/f1.png" alt=""/></a>
+                <a href=""><img src="images/f2.png" alt=""/></a>
+                <a href=""><img src="images/f3.png" alt=""/></a>
+                <a href=""><img src="images/f4.png" alt=""/></a>
+            </p>-->
+        </li>
+        <li class="dz">
+            <div class="name"><b>我们的地址</b></div>
+            <p>$webdb[cname]<br/>
+                $webdb[ename]</p>
+            <p>$webdb[address]</p>
+            <p>
+                TEL：$webdb[tel]
+                <a href="list.php?fid=48" class="map">网站地图</a>
+            </p>
+          <div class="f_s">
+                <form  method="post" action="http://www.test.com/do/search.php" target='spiframe'>
+                  <td>
+                    <input type="text" name="keyword" placeholder="搜索: 关键字 ">
+                    <input type="submit"  value="搜索" target="_blank">
+                  </td>
+                </form>
+
+        </div>
+        </li>
+    </ul>
+</div>
+<div class="f_bg">
+	<div class="bq clearfix">
+    	<div class="bq_l">
+            <a href="list.php?fid=92">法律声明</a> | 
+            <a href="list.php?fid=93">隐私保护</a>
+        </div>
+        <div class="bq_r" style='width:59%;'>$webdb[copyright]</div>
+    </div>
+</div>
+
+<!-- content -->
+	<script type="text/javascript">
+		//mengceng
+		$(".img_div").hover(function(){
+			$(this).find(".mj_mc").show();
+		},function(){
+			$(this).find(".mj_mc").hide();
+		})
+
+
+
+		// xiala
+		$(".Li_xiala").hover(function(){
+			$(this).find(".nav_xiala").show();
+		},function(){
+			$(this).find(".nav_xiala").hide();
+		})
+	</script>
+
+    
+    
+
+    
+    
+<!--
+EOT;
+?>
+-->

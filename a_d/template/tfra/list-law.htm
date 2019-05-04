@@ -1,0 +1,34 @@
+<!--
+<?php
+print <<<EOT
+-->
+<!--<div class="banner banner_s">
+	<img src="upload_files/banner_a.jpg" alt=""/>
+</div>-->
+<!--
+EOT;
+$result=@mysql_query('SELECT * FROM `qb_article` WHERE `aid`='.$_GET['id'].' AND `fid`='.$_GET['fid']);
+while($row=mysql_fetch_array($result))
+{ 
+
+if($fid!=107){ $hover = 'display:none';}
+
+print <<<EOT
+-->
+<div class="scd clearfix">
+    <div class="about">
+    	<img src="upload_files/$row[picurl]" alt="" style="float:left; margin-right:20px;">
+        <b style="font-size:16px; margin-bottom:20px;">$row[title]&nbsp;&nbsp;<a href='upload_files/$row[picurl]' style='$hover' download="м╪ф╛">обть</a></b><br/>
+       $rsdb[content]
+    </div>
+   
+</div>
+<!--
+EOT;
+}
+print <<<EOT
+-->
+<!--
+EOT;
+?>
+-->
