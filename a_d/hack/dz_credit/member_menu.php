@@ -1,7 +1,0 @@
-<?php
-return array(
-	'name'=>'ÂÛÌ³»ý·Ö¶Ò»»',
-	'url'=>'hack.php?hack=dz_credit'
-);
-
-?>
