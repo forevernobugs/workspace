@@ -1,0 +1,2704 @@
+[ 2019-05-07T00:02:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/article/page.html?name=address
+[ log ] shop.com/index.php/index/article/page.html?name=address [运行时间：0.106007s][吞吐率：9.43req/s] [内存消耗：1,967.58kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/article/lists.html?category=news',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'address',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 文章单页控制器
+	 * @author  tangtanglove <dai_hang_love@126.com>
+	 */
+Method [ <user> public method page ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Article.php 158 - 192
+}
+
+[ info ] [ VIEW ] ./themes/default/index/page.html [ array (
+  0 => 'userinfo',
+  1 => 'subPage',
+  2 => 'pageInfo',
+  3 => 'pidInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:03:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/article/page.html?name=address
+[ log ] shop.com/index.php/index/article/page.html?name=address [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,967.64kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/article/lists.html?category=news',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'address',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 文章单页控制器
+	 * @author  tangtanglove <dai_hang_love@126.com>
+	 */
+Method [ <user> public method page ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Article.php 158 - 192
+}
+
+[ info ] [ VIEW ] ./themes/default/index/page.html [ array (
+  0 => 'userinfo',
+  1 => 'subPage',
+  2 => 'pageInfo',
+  3 => 'pidInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:04:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/article/page.html?name=address
+[ log ] shop.com/index.php/index/article/page.html?name=address [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,967.64kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/article/lists.html?category=news',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'address',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 文章单页控制器
+	 * @author  tangtanglove <dai_hang_love@126.com>
+	 */
+Method [ <user> public method page ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Article.php 158 - 192
+}
+
+[ info ] [ VIEW ] ./themes/default/index/page.html [ array (
+  0 => 'userinfo',
+  1 => 'subPage',
+  2 => 'pageInfo',
+  3 => 'pidInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:06:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] shop.com/index.php/index/index/index.html [运行时间：0.152008s][吞吐率：6.58req/s] [内存消耗：1,974.02kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/article/page.html?name=address',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/orderlists.html
+[ log ] shop.com/index.php/index/order/orderlists.html [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：1,862.77kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Order.php 27 - 45
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'page',
+  2 => 'lists',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/order/cancel.html
+[ log ] shop.com/index.php/index/order/cancel.html [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：1,630.24kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'cancel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/order/orderlists.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '11',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'type' => '2',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 取消订单或删除
+	 */
+Method [ <user> public method cancel ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Order.php 88 - 128
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/orderlists.html
+[ log ] shop.com/index.php/index/order/orderlists.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,861.06kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/order/orderlists.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Order.php 27 - 45
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'page',
+  2 => 'lists',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/order/cancel.html
+[ log ] shop.com/index.php/index/order/cancel.html [运行时间：0.115001s][吞吐率：8.70req/s] [内存消耗：1,630.24kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'cancel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/order/orderlists.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '11',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'type' => '2',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 取消订单或删除
+	 */
+Method [ <user> public method cancel ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Order.php 88 - 128
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/orderlists.html
+[ log ] shop.com/index.php/index/order/orderlists.html [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：1,859.28kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/order/orderlists.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Order.php 27 - 45
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'page',
+  2 => 'lists',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:07:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] shop.com/index.php/index/user/usercenter.html [运行时间：0.169009s][吞吐率：5.92req/s] [内存消耗：1,703.16kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/order/orderlists.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/common/logout.html
+[ log ] shop.com/admin.php/common/logout.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,678.09kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/banner/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method logout ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Common.php 48 - 53
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/login.html
+[ log ] shop.com/admin.php/base/login.html [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,586.35kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/banner/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Base.php 40 - 75
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\base\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:08:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/base/captcha.html
+[ log ] shop.com/admin.php/base/captcha.html [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：1,627.01kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/base/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Base.php 81 - 85
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:08:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/base/login.html
+[ log ] shop.com/admin.php/base/login.html [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,818.47kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/base/login.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => '4uu',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Base.php 40 - 75
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:08:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] shop.com/admin.php/index/index.html [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,735.06kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Index.php 21 - 38
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'version',
+  2 => 'new_ver',
+  3 => 'user_num',
+  4 => 'post_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/edit.html
+[ log ] shop.com/admin.php/user/edit.html [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：1,735.71kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改个人资料
+     * @author 完美°ぜ界丶
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\User.php 27 - 48
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\user\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'userInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/member/index.html
+[ log ] shop.com/admin.php/member/index.html [运行时间：0.226012s][吞吐率：4.42req/s] [内存消耗：1,869.73kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/user/edit.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Member.php 23 - 47
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\member\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/edit.html
+[ log ] shop.com/admin.php/user/edit.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,735.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改个人资料
+     * @author 完美°ぜ界丶
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\User.php 27 - 48
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\user\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'userInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] shop.com/admin.php/index/index.html [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：1,735.06kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Index.php 21 - 38
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'version',
+  2 => 'new_ver',
+  3 => 'user_num',
+  4 => 'post_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/post/index.html
+[ log ] shop.com/admin.php/post/index.html [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：1,904.97kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 文章列表
+     * @author tangtanglove
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 36 - 82
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\post\index.html [ array (
+  0 => 'menuTree',
+  1 => 'postsList',
+  2 => 'status',
+  3 => 'category',
+  4 => 'termTaxonomySelectTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/post/edit/id/26.html
+[ log ] shop.com/admin.php/post/edit/id/26.html [运行时间：0.159008s][吞吐率：6.29req/s] [内存消耗：2,020.14kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '26',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 编辑文章
+     * @author tangtanglove
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 155 - 237
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\post\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'postsInfo',
+  2 => 'coverList',
+  3 => 'categoryList',
+  4 => 'termTaxonomyTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/post/getbindform.html
+[ log ] shop.com/admin.php/post/getbindform.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,699.38kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'getbindform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '24',
+)
+[ info ] [ PARAM ] array (
+  'categoryIds' => ',1,2,3',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 获取分类绑定的表单
+     * @author tangtanglove
+     */
+Method [ <user> public method getBindForm ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 365 - 378
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/form_builder/parse.html
+[ log ] shop.com/admin.php/form_builder/parse.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：1,691.09kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'form_builder',
+    2 => 'parse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '58',
+)
+[ info ] [ PARAM ] array (
+  'formName' => 'article',
+  'uuid' => 'f40f4963-ecf9-fc58-b6a9-9fd7211b9bb5',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 解析表单
+     * @author tangtanglove
+     */
+Method [ <user> public method parse ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\FormBuilder.php 136 - 178
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/common\view\form\text.html [ array (
+  0 => 'menuTree',
+  1 => 'title',
+  2 => 'data',
+  3 => 'name',
+  4 => 'placeholder',
+  5 => 'class',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:10:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/ueditor/index.html?action=config&&noCache=1557159059861
+[ log ] shop.com/admin.php/ueditor/index.html?action=config&&noCache=1557159059861 [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：1,649.30kb] [文件加载：48]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ueditor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1557159059861',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 上传文件
+     * @author tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Ueditor.php 27 - 81
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/post/getbindform.html
+[ log ] shop.com/admin.php/post/getbindform.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,699.34kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'getbindform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '20',
+)
+[ info ] [ PARAM ] array (
+  'categoryIds' => ',2,3',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 获取分类绑定的表单
+     * @author tangtanglove
+     */
+Method [ <user> public method getBindForm ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 365 - 378
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/form_builder/parse.html
+[ log ] shop.com/admin.php/form_builder/parse.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,691.09kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'form_builder',
+    2 => 'parse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '58',
+)
+[ info ] [ PARAM ] array (
+  'formName' => 'article',
+  'uuid' => 'f40f4963-ecf9-fc58-b6a9-9fd7211b9bb5',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 解析表单
+     * @author tangtanglove
+     */
+Method [ <user> public method parse ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\FormBuilder.php 136 - 178
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/common\view\form\text.html [ array (
+  0 => 'menuTree',
+  1 => 'title',
+  2 => 'data',
+  3 => 'name',
+  4 => 'placeholder',
+  5 => 'class',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/post/getbindform.html
+[ log ] shop.com/admin.php/post/getbindform.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,699.38kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'getbindform',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '16',
+)
+[ info ] [ PARAM ] array (
+  'categoryIds' => ',3',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 获取分类绑定的表单
+     * @author tangtanglove
+     */
+Method [ <user> public method getBindForm ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 365 - 378
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/form_builder/parse.html
+[ log ] shop.com/admin.php/form_builder/parse.html [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：1,691.09kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'form_builder',
+    2 => 'parse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '58',
+)
+[ info ] [ PARAM ] array (
+  'formName' => 'article',
+  'uuid' => 'f40f4963-ecf9-fc58-b6a9-9fd7211b9bb5',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 解析表单
+     * @author tangtanglove
+     */
+Method [ <user> public method parse ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\FormBuilder.php 136 - 178
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/common\view\form\text.html [ array (
+  0 => 'menuTree',
+  1 => 'title',
+  2 => 'data',
+  3 => 'name',
+  4 => 'placeholder',
+  5 => 'class',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:28+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/post/edit.html
+[ log ] shop.com/admin.php/post/edit.html [运行时间：0.331019s][吞吐率：3.02req/s] [内存消耗：1,963.13kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://shop.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'shop.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '588',
+)
+[ info ] [ PARAM ] array (
+  'title' => '今天在学校写代码',
+  'id' => '26',
+  'uuid' => 'f40f4963-ecf9-fc58-b6a9-9fd7211b9bb5',
+  'description' => '沙发',
+  'category_ids' => 
+  array (
+    0 => '3',
+  ),
+  'cover_path' => '',
+  'content' => '<p>今天在学校写代码今天在学校写代码今天在学校写代码今天在学校写代码</p><audio controls="controls" style="display: none;"></audio>',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 编辑文章
+     * @author tangtanglove
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 155 - 237
+}
+
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/post/index.html
+[ log ] shop.com/admin.php/post/index.html [运行时间：0.118006s][吞吐率：8.47req/s] [内存消耗：1,905.12kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/edit/id/26.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 文章列表
+     * @author tangtanglove
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Post.php 36 - 82
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\post\index.html [ array (
+  0 => 'menuTree',
+  1 => 'postsList',
+  2 => 'status',
+  3 => 'category',
+  4 => 'termTaxonomySelectTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:12:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/goods/index.html
+[ log ] shop.com/admin.php/goods/index.html [运行时间：0.103005s][吞吐率：9.71req/s] [内存消耗：1,894.85kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/post/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 商品列表
+     * @author tangtanglove
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Goods.php 28 - 70
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\goods\index.html [ array (
+  0 => 'menuTree',
+  1 => 'status',
+  2 => 'category',
+  3 => 'goodsCateTree',
+  4 => 'goodsList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:12:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/order/index.html
+[ log ] shop.com/admin.php/order/index.html [运行时间：0.198010s][吞吐率：5.05req/s] [内存消耗：1,874.26kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/goods/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 订单列表
+     * @author 
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Order.php 26 - 51
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\order\index.html [ array (
+  0 => 'menuTree',
+  1 => 'ordersList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:12:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/member/index.html
+[ log ] shop.com/admin.php/member/index.html [运行时间：0.097005s][吞吐率：10.31req/s] [内存消耗：1,869.72kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/order/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Member.php 23 - 47
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\member\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/member/add.html
+[ log ] shop.com/admin.php/member/add.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：1,745.95kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/member/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+   * @author 完美°ぜ界丶
+   * 添加会员
+   */
+Method [ <user> public method add ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Member.php 53 - 91
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\member\add.html [ array (
+  0 => 'menuTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/member/index.html
+[ log ] shop.com/admin.php/member/index.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,869.72kb] [文件加载：57]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/member/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Member.php 23 - 47
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\member\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/edit.html
+[ log ] shop.com/admin.php/config/edit.html [运行时间：0.240013s][吞吐率：4.17req/s] [内存消耗：1,743.30kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/member/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 系统配置
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Config.php 24 - 44
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\config\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'list',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/menu/index.html
+[ log ] shop.com/admin.php/menu/index.html [运行时间：0.258014s][吞吐率：3.88req/s] [内存消耗：1,780.67kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/config/edit.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 后台菜单首页
+     * @author  ILSunshine
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Menu.php 27 - 45
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\menu\index.html [ array (
+  0 => 'menuTree',
+  1 => 'menuListTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/navigation/index.html
+[ log ] shop.com/admin.php/navigation/index.html [运行时间：0.192010s][吞吐率：5.21req/s] [内存消耗：1,759.73kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navigation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 后台菜单首页
+     * @author  ILSunshine
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Navigation.php 27 - 45
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\navigation\index.html [ array (
+  0 => 'menuTree',
+  1 => 'navigationListTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/index.html
+[ log ] shop.com/admin.php/authmanager/index.html [运行时间：0.180009s][吞吐率：5.56req/s] [内存消耗：1,769.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 授权首页
+	 * @return [type] [description]
+	 */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 26 - 31
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userGroup',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:13:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/edit.html
+[ log ] shop.com/admin.php/config/edit.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,743.24kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/authmanager/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 系统配置
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Config.php 24 - 44
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\config\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'list',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/menu/index.html
+[ log ] shop.com/admin.php/menu/index.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,780.67kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/config/edit.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 后台菜单首页
+     * @author  ILSunshine
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Menu.php 27 - 45
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\menu\index.html [ array (
+  0 => 'menuTree',
+  1 => 'menuListTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/navigation/index.html
+[ log ] shop.com/admin.php/navigation/index.html [运行时间：0.106005s][吞吐率：9.43req/s] [内存消耗：1,759.73kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navigation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 后台菜单首页
+     * @author  ILSunshine
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Navigation.php 27 - 45
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\navigation\index.html [ array (
+  0 => 'menuTree',
+  1 => 'navigationListTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/index.html
+[ log ] shop.com/admin.php/authmanager/index.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：1,769.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 授权首页
+	 * @return [type] [description]
+	 */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 26 - 31
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userGroup',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/index.html
+[ log ] shop.com/admin.php/authmanager/index.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：1,769.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 授权首页
+	 * @return [type] [description]
+	 */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 26 - 31
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userGroup',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/index.html
+[ log ] shop.com/admin.php/authmanager/index.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,769.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 授权首页
+	 * @return [type] [description]
+	 */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 26 - 31
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userGroup',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/edit.html
+[ log ] shop.com/admin.php/config/edit.html [运行时间：0.071002s][吞吐率：14.08req/s] [内存消耗：1,743.30kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 系统配置
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Config.php 24 - 44
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\config\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'list',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/edit/id/1.html
+[ log ] shop.com/admin.php/authmanager/edit/id/1.html [运行时间：0.394022s][吞吐率：2.54req/s] [内存消耗：1,770.15kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/authmanager/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 编辑用户组
+     * @return [type] [description]
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 123 - 156
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'group',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/authmanager/index.html
+[ log ] shop.com/admin.php/authmanager/index.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,769.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authmanager',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 授权首页
+	 * @return [type] [description]
+	 */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Authmanager.php 26 - 31
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\authmanager\index.html [ array (
+  0 => 'menuTree',
+  1 => 'userGroup',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:14:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/navigation/index.html
+[ log ] shop.com/admin.php/navigation/index.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,759.73kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navigation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/menu/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 后台菜单首页
+     * @author  ILSunshine
+     */
+Method [ <user> public method index ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\Navigation.php 27 - 45
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\navigation\index.html [ array (
+  0 => 'menuTree',
+  1 => 'navigationListTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:15:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/edit.html
+[ log ] shop.com/admin.php/user/edit.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,735.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/navigation/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改个人资料
+     * @author 完美°ぜ界丶
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\User.php 27 - 48
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\user\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'userInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:15:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/password.html
+[ log ] shop.com/admin.php/user/password.html [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：1,733.98kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'password',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/user/edit.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改密码
+     */
+Method [ <user> public method password ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\User.php 53 - 83
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\user\password.html [ array (
+  0 => 'menuTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:15:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/user/edit.html
+[ log ] shop.com/admin.php/user/edit.html [运行时间：0.090004s][吞吐率：11.11req/s] [内存消耗：1,735.77kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/admin.php/user/password.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改个人资料
+     * @author 完美°ぜ界丶
+     */
+Method [ <user> public method edit ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\admin\controller\User.php 27 - 48
+}
+
+[ info ] [ VIEW ] C:\phpStudy\PHPTutorial\WWW\shop/application/admin\view\user\edit.html [ array (
+  0 => 'menuTree',
+  1 => 'userInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:50:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/article/page.html?name=address
+[ log ] shop.com/index.php/index/article/page.html?name=address [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：1,766.43kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/user/usercenter.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'address',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 文章单页控制器
+	 * @author  tangtanglove <dai_hang_love@126.com>
+	 */
+Method [ <user> public method page ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Article.php 158 - 192
+}
+
+[ info ] [ VIEW ] ./themes/default/index/page.html [ array (
+  0 => 'userinfo',
+  1 => 'subPage',
+  2 => 'pageInfo',
+  3 => 'pidInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-07T00:50:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/article/page.html?name=company
+[ log ] shop.com/index.php/index/article/page.html?name=company [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,777.80kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=2544536576; PHPSESSID=egpa4gtg65pcmvu7vh4km5vui1; pgv_si=s8134257664; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://shop.com/index.php/index/article/page.html?name=address',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'shop.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'company',
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	 * 文章单页控制器
+	 * @author  tangtanglove <dai_hang_love@126.com>
+	 */
+Method [ <user> public method page ] {
+  @@ C:\phpStudy\PHPTutorial\WWW\shop\application\index\controller\Article.php 158 - 192
+}
+
+[ info ] [ VIEW ] ./themes/default/index/page.html [ array (
+  0 => 'userinfo',
+  1 => 'subPage',
+  2 => 'pageInfo',
+  3 => 'pidInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

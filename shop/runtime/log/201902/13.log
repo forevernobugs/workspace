@@ -1,0 +1,390 @@
+[ 2019-02-13T16:39:23+08:00 ] ::1 ::1 GET /
+[ log ] gjj2.com/ [运行时间：0.169334s][吞吐率：5.91req/s] [内存消耗：3,176.20kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:24+08:00 ] ::1 ::1 GET /
+[ log ] gjj2.com/ [运行时间：0.123324s][吞吐率：8.11req/s] [内存消耗：3,174.79kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:25+08:00 ] ::1 ::1 GET /index.php/index/index/login.html
+[ log ] gjj2.com/index.php/index/index/login.html [运行时间：0.052205s][吞吐率：19.16req/s] [内存消耗：2,780.51kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gjj2.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user, inherits app\index\controller\Base> public method login ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/Base.php 63 - 96
+}
+
+[ info ] [ VIEW ] ./themes/default/index/login.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:29+08:00 ] ::1 ::1 POST /index.php/index/base/login.html
+[ log ] gjj2.com/index.php/index/base/login.html [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,791.05kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://gjj2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'referer' => 'http://gjj2.com/index.php/index/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '23',
+)
+[ info ] [ PARAM ] array (
+  'key' => 'asd',
+  'password' => 'asdasd',
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  矢志bu渝 <745152620@qq.com>
+     */
+Method [ <user> public method login ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/Base.php 63 - 96
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:30+08:00 ] ::1 ::1 GET /index.php/index/user/usercenter.html
+[ log ] gjj2.com/index.php/index/user/usercenter.html [运行时间：0.068314s][吞吐率：14.64req/s] [内存消耗：2,800.96kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gjj2.com/index.php/index/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:34+08:00 ] ::1 ::1 GET /index.php/index/user/editpassword.html
+[ log ] gjj2.com/index.php/index/user/editpassword.html [运行时间：0.065148s][吞吐率：15.35req/s] [内存消耗：3,094.72kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'editpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gjj2.com/index.php/index/user/usercenter.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改密码
+     * @author  矢志bu渝
+     */
+Method [ <user> public method editPassword ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/User.php 38 - 75
+}
+
+[ info ] [ VIEW ] ./themes/default/index/edit_pass.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:38+08:00 ] ::1 ::1 POST /index.php/index/user/editpassword.html
+[ log ] gjj2.com/index.php/index/user/editpassword.html [运行时间：0.053502s][吞吐率：18.69req/s] [内存消耗：2,933.17kb] [文件加载：55]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'editpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://gjj2.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'referer' => 'http://gjj2.com/index.php/index/user/editpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '46',
+)
+[ info ] [ PARAM ] array (
+  'password' => 'asdasd',
+  'newpassword' => 'asd',
+  'repassword' => 'asd',
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改密码
+     * @author  矢志bu渝
+     */
+Method [ <user> public method editPassword ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/User.php 38 - 75
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-02-13T16:39:41+08:00 ] ::1 ::1 GET /index.php/index/user/editpassword.html
+[ log ] gjj2.com/index.php/index/user/editpassword.html [运行时间：0.053016s][吞吐率：18.86req/s] [内存消耗：2,773.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/gjj/work/gjj2/core/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'editpassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'gjj2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://gjj2.com/index.php/index/user/editpassword.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__cfduid=d98f8ce31f1e46a2c8b93424f508962661544453438; pgv_pvi=8621669376; bdshare_firstime=1549184711034; think_var=zh-cn; PHPSESSID=f40b333bdd486553a1aaced2cac2e783',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/gjj/work/gjj2/application/index/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 修改密码
+     * @author  矢志bu渝
+     */
+Method [ <user> public method editPassword ] {
+  @@ /Users/gjj/work/gjj2/application/index/controller/User.php 38 - 75
+}
+
+[ info ] [ VIEW ] ./themes/default/index/edit_pass.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
