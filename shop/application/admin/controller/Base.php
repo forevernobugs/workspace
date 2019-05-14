@@ -50,9 +50,9 @@ class Base extends Controller
             // 加载语言包
             $validate->loadLang();
             // 验证
-            if(!$validate->check($data)){
-                return $this->error($validate->getError());
-            }
+//            if(!$validate->check($data)){
+//                return $this->error($validate->getError());
+//            }
             $where['username'] = $username;
             $where['status']   = 1;
             $userInfo = Db::name('Users')->where($where)->find();

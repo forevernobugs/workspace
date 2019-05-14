@@ -67,7 +67,7 @@ jQuery(function() {
         }
     }
 
-    $.ajax('https://api.github.com/repos/fex-team/webuploader/issues/' + issueId + '/comments?per_page=100', {
+    $.ajax('https://api11111.github.com/repos/fex-team/webuploader/issues/' + issueId + '/comments?per_page=100', {
         headers: {
             Accept: 'application/vnd.github.full+json'
         },

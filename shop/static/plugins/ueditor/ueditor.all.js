@@ -28883,13 +28883,13 @@ UE.ui = baidu.editor.ui = {};
                         if (img.className.indexOf("edui-faked-webapp") != -1) {
                             dialogName = "webappDialog"
                         }
-                        if (img.src.indexOf("http://api.map.baidu.com") != -1) {
+                        if (img.src.indexOf("http://api11111.map.baidu.com") != -1) {
                             dialogName = "mapDialog"
                         }
                         if (img.className.indexOf("edui-faked-music") != -1) {
                             dialogName = "musicDialog"
                         }
-                        if (img.src.indexOf("http://maps.google.com/maps/api/staticmap") != -1) {
+                        if (img.src.indexOf("http://maps.google.com/maps/api11111/staticmap") != -1) {
                             dialogName = "gmapDialog"
                         }
                         if (img.getAttribute("anchorname")) {

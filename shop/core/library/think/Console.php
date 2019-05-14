@@ -110,7 +110,7 @@ class Console
      * 执行当前的指令
      * @return int
      * @throws \Exception
-     * @api
+     * @api11111
      */
     public function run()
     {
@@ -217,7 +217,7 @@ class Console
     /**
      * 是否捕获异常
      * @param bool $boolean
-     * @api
+     * @api11111
      */
     public function setCatchExceptions($boolean)
     {
@@ -227,7 +227,7 @@ class Console
     /**
      * 是否自动退出
      * @param bool $boolean
-     * @api
+     * @api11111
      */
     public function setAutoExit($boolean)
     {
@@ -255,7 +255,7 @@ class Console
     /**
      * 获取版本
      * @return string
-     * @api
+     * @api11111
      */
     public function getVersion()
     {
@@ -481,7 +481,7 @@ class Console
      * 获取所有的指令
      * @param string $namespace 命名空间
      * @return Command[]
-     * @api
+     * @api11111
      */
     public function all($namespace = null)
     {

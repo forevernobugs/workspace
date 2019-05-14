@@ -398,6 +398,10 @@ class Goods extends Common
             return $this->error('操作失败！');
         }
     }
-
+    //销售管理
+    public function salesManagement()
+    {
+        echo 111;
+    }
 
 }

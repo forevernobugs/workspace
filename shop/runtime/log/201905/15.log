@@ -1,0 +1,1001 @@
+[ 2019-05-15T00:27:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] yifu.com/index.php/index/user/usercenter.html [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：2,041.75kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] yifu.com/index.php/index/user/usercenter.html [运行时间：0.129008s][吞吐率：7.75req/s] [内存消耗：1,760.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:27:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] yifu.com/index.php/index/user/usercenter.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：1,760.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:27:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/usercenter.html
+[ log ] yifu.com/index.php/index/user/usercenter.html [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：1,760.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'usercenter',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人中心
+     * @author  ILsunshine
+     */
+Method [ <user> public method userCenter ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\User.php 28 - 32
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_center.html [ array (
+  0 => 'userinfo',
+  1 => 'userInfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:27:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] yifu.com/admin.php/index/index.html [运行时间：0.213013s][吞吐率：4.69req/s] [内存消耗：1,953.52kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Index.php 21 - 38
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'version',
+  2 => 'new_ver',
+  3 => 'user_num',
+  4 => 'post_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:27:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] yifu.com/index.php/index/index/index.html [运行时间：0.353021s][吞吐率：2.83req/s] [内存消耗：2,803.49kb] [文件加载：60]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/user/usercenter.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yifu.shop_links' doesn't exist[D:\wamp\www\go\workspace\shop\core\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ log ] yifu.com/index.php/index/index/index.html [运行时间：0.291017s][吞吐率：3.44req/s] [内存消耗：2,453.95kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/user/usercenter.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/goods/detail.html?id=4
+[ log ] yifu.com/index.php/index/goods/detail.html?id=4 [运行时间：0.211012s][吞吐率：4.74req/s] [内存消耗：2,226.77kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method detail ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Goods.php 130 - 183
+}
+
+[ info ] [ VIEW ] ./themes/default/index/goods_detail.html [ array (
+  0 => 'userinfo',
+  1 => 'star_1',
+  2 => 'star_2',
+  3 => 'star_3',
+  4 => 'star_4',
+  5 => 'star_5',
+  6 => 'data',
+  7 => 'comment',
+  8 => 'total_comment',
+  9 => 'average',
+  10 => 'page',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/cart/index.html?type=step1
+[ log ] yifu.com/index.php/index/cart/index.html?type=step1 [运行时间：0.151008s][吞吐率：6.62req/s] [内存消耗：2,061.95kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn; mini_car=%5B%5B%224%22%2C%22nake%22%2C1000%2C1%5D%5D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/goods/detail.html?id=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'step1',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 购物车首页
+	* @author tangtanglove
+	*/
+Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Cart.php 24 - 65
+}
+
+[ info ] [ VIEW ] ./themes/default/index/cart_step1.html [ array (
+  0 => 'userinfo',
+  1 => 'cartMoney',
+  2 => 'selectGoods',
+  3 => 'lists',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/cart/checkorder.html
+[ log ] yifu.com/index.php/index/cart/checkorder.html [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,068.05kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'checkorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/cart/index.html?type=step1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://yifu.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '4',
+  'cart' => 
+  array (
+    0 => 'yes,4,1000.00,1',
+  ),
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 检查订单信息
+	* @author tangtanglove
+	*/
+Method [ <user> public method checkOrder ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Cart.php 71 - 103
+}
+
+[ info ] [ VIEW ] ./themes/default/index/cart_step2.html [ array (
+  0 => 'userinfo',
+  1 => 'formToken',
+  2 => 'lists',
+  3 => 'ordersAddressLists',
+  4 => 'cartMoney',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/cart/addaddress.html
+[ log ] yifu.com/index.php/index/cart/addaddress.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,631.90kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'addaddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/cart/checkorder.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://yifu.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '151',
+)
+[ info ] [ PARAM ] array (
+  'consignee_name' => '',
+  'province' => '河北',
+  'city' => '石家庄',
+  'county' => '长安区',
+  'address' => '蜀中',
+  'mobile' => 'asdas',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 添加收货地址
+	* @author tangtanglove
+	*/
+Method [ <user> public method addAddress ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Cart.php 210 - 240
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/cart/addaddress.html
+[ log ] yifu.com/index.php/index/cart/addaddress.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,631.93kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'addaddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/cart/checkorder.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://yifu.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '157',
+)
+[ info ] [ PARAM ] array (
+  'consignee_name' => '',
+  'province' => '河北',
+  'city' => '石家庄',
+  'county' => '长安区',
+  'address' => '蜀中',
+  'mobile' => '13245678901',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 添加收货地址
+	* @author tangtanglove
+	*/
+Method [ <user> public method addAddress ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Cart.php 210 - 240
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/cart/postorder.html
+[ log ] yifu.com/index.php/index/cart/postorder.html [运行时间：0.151008s][吞吐率：6.62req/s] [内存消耗：1,870.89kb] [文件加载：59]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cart',
+    2 => 'postorder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/cart/checkorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://yifu.com',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '95',
+)
+[ info ] [ PARAM ] array (
+  'formToken' => '4b3e1dac8d086e3c331afb7f9220f297',
+  'address_id' => '',
+  'paytype' => 'wxpay',
+  'cart' => 
+  array (
+    0 => '4,1000.00,1',
+  ),
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+	* 提交订单
+	* @author tangtanglove
+	*/
+Method [ <user> public method postOrder ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Cart.php 109 - 204
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop\core\tpl\dispatch_jump.tpl [ array (
+  0 => 'userinfo',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/order/orderlists.html
+[ log ] yifu.com/index.php/index/order/orderlists.html [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：2,164.52kb] [文件加载：65]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'order',
+    2 => 'orderlists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/index.php/index/cart/postorder.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 个人订单
+     * @author ILsunshien
+     */
+Method [ <user> public method orderLists ] {
+  @@ D:\wamp\www\go\workspace\shop\application\index\controller\Order.php 27 - 45
+}
+
+[ info ] [ VIEW ] ./themes/default/index/user_order.html [ array (
+  0 => 'userinfo',
+  1 => 'page',
+  2 => 'lists',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/index.html
+[ log ] yifu.com/admin.php/index/index.html [运行时间：0.178010s][吞吐率：5.62req/s] [内存消耗：1,713.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/base/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Index.php 21 - 38
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'version',
+  2 => 'new_ver',
+  3 => 'user_num',
+  4 => 'post_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/order/index.html
+[ log ] yifu.com/admin.php/order/index.html [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：2,070.77kb] [文件加载：62]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 订单列表
+     * @author 
+     */
+Method [ <user> public method index ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Order.php 26 - 51
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop/application/admin\view\order\index.html [ array (
+  0 => 'menuTree',
+  1 => 'ordersList',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/order/detail/id/2019051552995251.html
+[ log ] yifu.com/admin.php/order/detail/id/2019051552995251.html [运行时间：0.185011s][吞吐率：5.41req/s] [内存消耗：2,005.73kb] [文件加载：58]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/order/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2019051552995251',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 查看订单详情
+     * @author 
+     */
+Method [ <user> public method detail ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Order.php 57 - 79
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop/application/admin\view\order\detail.html [ array (
+  0 => 'menuTree',
+  1 => 'ordersInfo',
+  2 => 'goodInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/order/send.html
+[ log ] yifu.com/admin.php/order/send.html [运行时间：0.152008s][吞吐率：6.58req/s] [内存消耗：1,596.02kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'send',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/order/detail/id/2019051552995251.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://yifu.com',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '69',
+)
+[ info ] [ PARAM ] array (
+  'express_type' => '',
+  'express_no' => '',
+  'consignee_name' => '',
+  'mobile' => '',
+  'address' => '',
+  'ordersId' => '9',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 订单发货
+     * @author  vaey
+     */
+Method [ <user> public method send ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Order.php 195 - 225
+}
+
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2019-05-15T00:28:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/order/detail/id/2019051552995251.html?express_type=&express_no=&consignee_name=&mobile=&address=&ordersId=9
+[ log ] yifu.com/admin.php/order/detail/id/2019051552995251.html?express_type=&express_no=&consignee_name=&mobile=&address=&ordersId=9 [运行时间：0.257015s][吞吐率：3.89req/s] [内存消耗：1,756.78kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=75pt8rbsham5l3ql51bjv4p5a5; pgv_pvi=9756053504; pgv_si=s7482846208; think_var=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://yifu.com/admin.php/order/detail/id/2019051552995251.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'yifu.com',
+)
+[ info ] [ PARAM ] array (
+  'express_type' => '',
+  'express_no' => '',
+  'consignee_name' => '',
+  'mobile' => '',
+  'address' => '',
+  'ordersId' => '9',
+  'id' => '2019051552995251',
+)
+[ info ] [ LANG ] D:\wamp\www\go\workspace\shop/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 查看订单详情
+     * @author 
+     */
+Method [ <user> public method detail ] {
+  @@ D:\wamp\www\go\workspace\shop\application\admin\controller\Order.php 57 - 79
+}
+
+[ info ] [ VIEW ] D:\wamp\www\go\workspace\shop/application/admin\view\order\detail.html [ array (
+  0 => 'menuTree',
+  1 => 'ordersInfo',
+  2 => 'goodInfo',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------

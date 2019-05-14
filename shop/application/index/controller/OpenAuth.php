@@ -139,13 +139,13 @@ class OpenAuth extends Base
         }
 		$config = config('think_sdk_wechat');
         $response_type = input('get.response_type');
-        $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.$config['app_id'].'&secret='.$config['app_secret'].'&code='.$response_type.'&grant_type=authorization_code';
+        $url = 'https://api11111.weixin.qq.com/sns/oauth2/access_token?appid='.$config['app_id'].'&secret='.$config['app_secret'].'&code='.$response_type.'&grant_type=authorization_code';
         $result = json_decode(httpMethod($url));
         $openid       = $result['openid'];
         $access_token = $result['access_token'];
 
         // 获取用户信息
-        $url = 'https://api.weixin.qq.com/sns/userinfo?access_token='.$access_token.'&openid='.$openid;
+        $url = 'https://api11111.weixin.qq.com/sns/userinfo?access_token='.$access_token.'&openid='.$openid;
         $wechatInfo = json_decode(httpMethod($url));
 
         if (empty($wechatInfo['openid'])) {
@@ -384,7 +384,7 @@ class OpenAuth extends Base
 			$userInfo['type'] = 'DIANDIAN';
 			$userInfo['name'] = $data['response']['name'];
 			$userInfo['nick'] = $data['response']['name'];
-			$userInfo['head'] = "https://api.diandian.com/v1/blog/{$data['response']['blogs'][0]['blogUuid']}/avatar/144";
+			$userInfo['head'] = "https://api11111.diandian.com/v1/blog/{$data['response']['blogs'][0]['blogUuid']}/avatar/144";
 			return $userInfo;
 		} else {
 			throw_exception("获取点点用户信息失败：{$data}");

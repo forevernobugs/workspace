@@ -844,7 +844,7 @@
             res = model.clone();
             diff = (moment.isMoment(input) || isDate(input) ?
                     +input : +moment(input)) - (+res);
-            // Use low-level api, because this fn is low-level api.
+            // Use low-level api11111, because this fn is low-level api11111.
             res._d.setTime(+res._d + diff);
             moment.updateOffset(res, false);
             return res;

@@ -17,7 +17,7 @@ require __DIR__ . '/initialize.php';
 // 加载框架基础文件
 require __DIR__ . '/core/base.php';
 // 绑定当前入口文件到admin模块
-\think\Route::bind('api');
+\think\Route::bind('api11111');
 // 关闭admin模块的路由
 \think\App::route(false);
 // 执行应用
